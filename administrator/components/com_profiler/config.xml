@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<fieldset name="component"	label="COM_PROFILER_CONFIG_TAB_COMPONENT_LABEL" description="COM_PROFILER_CONFIG_TAB_COMPONENT_DESC">
+		<field
+			name="allowNonJoomlaUsers"
+			type="radio"
+			default="0"
+			label="COM_PROFILER_CONFIG_FIELD_ALLOWNONJOOMLAUSERS_LABEL"
+			description="COM_PROFILER_CONFIG_FIELD_ALLOWNONJOOMLAUSERS_DESC">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		<field menu="hide" name="enable_css" type="radio" default="1"
+			label="COM_PROFILER_CONFIG_FIELD_DEFAULTCSS_LABEL" description="COM_PROFILER_CONFIG_FIELD_DEFAULTCSS_DESC">
+			<option value="0">COM_PROFILER_DISABLE</option>
+			<option value="1">COM_PROFILER_ENABLE</option>
+		</field>
+		<field menu="hide" name="enable_jquery" type="radio" default="1"
+			label="COM_PROFILER_CONFIG_FIELD_DEFAULTJQUERY_LABEL" description="COM_PROFILER_CONFIG_FIELD_DEFAULTJQUERY_DESC">
+			<option value="0">COM_PROFILER_DISABLE</option>
+			<option value="1">COM_PROFILER_ENABLE</option>
+		</field>
+		<field menu="hide" name="enable_bootstrap" type="radio" default="1"
+			label="COM_PROFILER_CONFIG_FIELD_DEFAULTBOOTSTRAP_LABEL" description="COM_PROFILER_CONFIG_FIELD_DEFAULTBOOTSTRAP_DESC">
+			<option value="0">COM_PROFILER_DISABLE</option>
+			<option value="1">COM_PROFILER_ENABLE</option>
+		</field>
+	</fieldset>
+	<fieldset name="registration"	label="COM_PROFILER_CONFIG_TAB_REGISTRATION_LABEL" description="COM_PROFILER_CONFIG_TAB_REGISTRATION_DESC">
+		<field
+			name="allowUserRegistration"
+			type="radio"
+			default="1"
+			label="COM_PROFILER_CONFIG_FIELD_ALLOWREGISTRATION_LABEL"
+			description="COM_PROFILER_CONFIG_FIELD_ALLOWREGISTRATION_DESC">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		<field
+			name="new_usertype"
+			type="usergroup"
+			default="2"
+			label="COM_PROFILER_CONFIG_FIELD_NEWUSERTYPE_LABEL"
+			description="COM_PROFILER_CONFIG_FIELD_NEWUSERTYPE_DESC">
+		</field>
+		<field
+			name="JoomlaUsers"
+			type="radio"
+			default="1"
+			label="COM_PROFILER_CONFIG_FIELD_JOOMLAUSERS_LABEL"
+			description="COM_PROFILER_CONFIG_FIELD_JOOMLAUSERS_DESC">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		<field
+			name="useractivation"
+			type="list"
+			default="0"
+			label="COM_PROFILER_CONFIG_FIELD_USERACTIVATION_LABEL"
+			description="COM_PROFILER_CONFIG_FIELD_USERACTIVATION_DESC">
+			<option
+				value="0">JNONE</option>
+			<option
+				value="1">COM_PROFILER_CONFIG_FIELD_USERACTIVATION_OPTION_SELFACTIVATION</option>
+			<option
+				value="2">COM_PROFILER_CONFIG_FIELD_USERACTIVATION_OPTION_ADMINACTIVATION</option>
+			<option
+				value="3">COM_PROFILER_CONFIG_FIELD_USERACTIVATION_OPTION_ADMINONLYACTIVATION</option>
+		</field>
+		<field
+			name="captcha"
+			type="plugins"
+			folder="captcha"
+			default=""
+			label="COM_PROFILER_CONFIG_FIELD_CAPTCHA_LABEL"
+			description="COM_PROFILER_CONFIG_FIELD_CAPTCHA_DESC"
+			filter="cmd" >
+			<option
+				value="">JOPTION_USE_DEFAULT</option>
+			<option
+				value="0">JOPTION_DO_NOT_USE</option>
+		</field>
+		<field name="redirectregister" type="menuitem"
+			description="COM_PROFILER_CONFIG_FIELD_REDIRECTREGISTRATION_DESC"
+			label="COM_PROFILER_CONFIG_FIELD_REDIRECTREGISTRATION_LABEL" />
+	</fieldset>
+	<fieldset name="fields"	label="COM_PROFILER_CONFIG_TAB_FIELDS_LABEL" description="COM_PROFILER_CONFIG_TAB_FIELDS_DESC">
+		<field menu="hide" name="namestyle" type="list" default="1"
+			label="COM_PROFILER_CONFIG_FIELD_NAMESTYLE_LABEL" description="COM_PROFILER_CONFIG_FIELD_NAMESTYLE_DESC">
+			<option value="1">COM_PROFILER_CONFIG_FIELD_NAMESTYLE_OPTION_SINGLENAME</option>
+			<option value="2">COM_PROFILER_CONFIG_FIELD_NAMESTYLE_OPTION_EASYNAME</option>
+			<option value="3">COM_PROFILER_CONFIG_FIELD_NAMESTYLE_OPTION_FULLNAME</option>
+		</field>
+		<field menu="hide" name="datetimedisplay" type="text"
+			default="Y-m-d H:i:s" label="COM_PROFILER_CONFIG_FIELD_DATETIMEDISPLAY_LABEL" description="COM_PROFILER_CONFIG_FIELD_DATETIMEDISPLAY_DESC"
+			size="40" />
+		<field menu="hide" name="inputdatetimedisplay" type="text"
+			default="%Y-%m-%d %H:%M:%S" label="COM_PROFILER_CONFIG_FIELD_INPUTDATETIMEDISPLAY_LABEL" description="COM_PROFILER_CONFIG_FIELD_INPUTDATETIMEDISPLAY_DESC"
+			size="40" />
+		<field
+			name="frontend_userparams"
+			type="radio"
+			default="0"
+			label="COM_PROFILER_CONFIG_FIELD_FRONTENDUSERPARAMS_LABEL"
+			description="COM_PROFILER_CONFIG_FIELD_FRONTENDUSERPARAMS_DESC">
+			<option
+				value="0">JHIDE</option>
+			<option
+				value="1">JSHOW</option>
+		</field>
+		
+	</fieldset>
+	<fieldset name="uploads"	label="COM_PROFILER_CONFIG_TAB_UPLOAD_LABEL" description="COM_PROFILER_CONFIG_TAB_UPLOAD_DESC">
+		<field menu="hide" name="hpdestfolder" type="text" default="profile"
+			label="COM_PROFILER_CONFIG_FIELD_FOLDER_LABEL" description="COM_PROFILER_CONFIG_FIELD_FOLDER_DESC" size="10" />
+		<field
+			name="usefilenameencryption"
+			type="radio"
+			default="1"
+			label="COM_PROFILER_CONFIG_FIELD_USEFILENAMEENCRYPTION_LABEL"
+			description="COM_PROFILER_CONFIG_FIELD_USEFILENAMEENCRYPTION_DESC">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+		<field menu="hide" name="hphash" type="text" default="LUC12v39"
+			label="COM_PROFILER_CONFIG_FIELD_SEQUERITYKEY_LABEL" description="COM_PROFILER_CONFIG_FIELD_SEQUERITYKEY_DESC" size="10" />
+		<field menu="hide" name="hpimagefilesize" type="text" default="2048"
+			label="COM_PROFILER_CONFIG_FIELD_IMGSIZE_LABEL" description="COM_PROFILER_CONFIG_FIELD_IMGSIZE_DESC" size="4" />
+		<field menu="hide" name="hpimagemaxwidth" type="text" default="100"
+			label="COM_PROFILER_CONFIG_FIELD_IMGWIDTH_LABEL" description="COM_PROFILER_CONFIG_FIELD_IMGWIDTH_DESC" size="4" />
+		<field menu="hide" name="hpimagemaxheight" type="text" default="100"
+			label="COM_PROFILER_CONFIG_FIELD_IMGHEIGHT_LABEL" description="COM_PROFILER_CONFIG_FIELD_IMGHEIGHT_DESC" size="4" />
+		<field
+			name="resizeimages"
+			type="radio"
+			default="1"
+			label="COM_PROFILER_CONFIG_FIELD_RESIZEIMAGES_LABEL"
+			description="COM_PROFILER_CONFIG_FIELD_RESIZEIMAGES_DESC">
+			<option
+				value="0">JNO</option>
+			<option
+				value="1">JYES</option>
+		</field>
+	</fieldset>
+	<fieldset name="email"	label="COM_PROFILER_CONFIG_TAB_EMAIL_LABEL" description="COM_PROFILER_CONFIG_TAB_EMAIL_DESC">
+		<field menu="hide" name="enableemail" type="radio"
+			default="0" label="COM_PROFILER_CONFIG_FIELD_ENABLEEMAIL_LABEL" description="COM_PROFILER_CONFIG_FIELD_ENABLEEMAIL_DESC">
+			<option value="0">COM_PROFILER_DISABLE</option>
+			<option value="1">COM_PROFILER_ENABLE</option>
+		</field>
+		<field menu="hide" name="mailfrom" type="text" default=""
+			label="COM_PROFILER_CONFIG_FIELD_EMAILFROM_LABEL" description="COM_PROFILER_CONFIG_FIELD_EMAILFROM_DESC" size="40" />
+		<field menu="hide" name="fromname" type="text" default=""
+			label="COM_PROFILER_CONFIG_FIELD_EMAILNAME_LABEL" description="COM_PROFILER_CONFIG_FIELD_EMAILNAME_DESC" size="40" />
+
+		<field menu="hide" name="activateemail" type="spacer" label="COM_PROFILER_CONFIG_FIELD_EMAILACTIVATE_LABEL" />			
+		<field menu="hide" name="subjectactivate" type="text" default=""
+			label="COM_PROFILER_CONFIG_FIELD_EMAILSUBJECTACTIVATE_LABEL" description="COM_PROFILER_CONFIG_FIELD_EMAILSUBJECTACTIVATE_DESC" size="40" />
+		<field menu="hide" name="emailbodyactivate" type="textarea" default=""
+			label="COM_PROFILER_CONFIG_FIELD_EMAILBODYACTIVATE_LABEL" rows="5" cols="40" description="COM_PROFILER_CONFIG_FIELD_EMAILBODYACTIVATE_DESC" />
+		
+		<field menu="hide" name="approveemail" type="spacer" label="COM_PROFILER_CONFIG_FIELD_EMAILAPPROVE_LABEL" />	
+		<field menu="hide" name="subjectapprove" type="text" default=""
+			label="COM_PROFILER_CONFIG_FIELD_EMAILSUBJECTAPPROVE_LABEL" description="COM_PROFILER_CONFIG_FIELD_EMAILSUBJECTAPPROVE_DESC" size="40" />
+		<field menu="hide" name="emailbodyapprove" type="textarea" default=""
+			label="COM_PROFILER_CONFIG_FIELD_EMAILBODYAPPROVE_LABEL" rows="5" cols="40" description="COM_PROFILER_CONFIG_FIELD_EMAILBODYAPPROVE_DESC" />
+		
+		<field menu="hide" name="approvedemail" type="spacer" label="COM_PROFILER_CONFIG_FIELD_EMAILAPPROVED_LABEL" />
+		<field menu="hide" name="subjectapproved" type="text" default=""
+			label="COM_PROFILER_CONFIG_FIELD_EMAILSUBJECTAPPROVED_LABEL" description="COM_PROFILER_CONFIG_FIELD_EMAILSUBJECTAPPROVED_DESC" size="40" />
+		<field menu="hide" name="emailbodyapproved" type="textarea" default=""
+			label="COM_PROFILER_CONFIG_FIELD_EMAILBODYAPPROVED_LABEL" rows="5" cols="40" description="COM_PROFILER_CONFIG_FIELD_EMAILBODYAPPROVED_DESC" />
+
+	</fieldset>
+	<fieldset name="permissions" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC">
+		<field name="rules"	type="rules" label="JCONFIG_PERMISSIONS_LABEL" class="inputbox" filter="rules" validate="rules"	component="com_profiler" section="component" />
+	</fieldset>
+
+</config>

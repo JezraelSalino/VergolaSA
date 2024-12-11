@@ -1,0 +1,44 @@
+li .mceEditor {
+	display: block;
+	clear: both;
+}
+
+li .avatar img {
+	float: none;	
+}
+
+li .avatar input {
+	float: none;
+}
+
+#categorie-config select {
+	width: 100px;
+	margin-bottom: 0px;
+}
+
+#field-config select {
+	width: 100px;
+	margin-bottom: 0px;
+}
+
+
+label#jform_profilerfields-lbl {
+	float: none;
+	display: none;
+	white-space: nowrap;
+}
+
+label#jform_profilercategories-lbl {
+	float: none;
+	display: none;
+	white-space: nowrap;
+}
+
+
+td.profiler_access {
+	background-color: #FF0000;
+}
+
+td.profiler_denied {
+	background-color: #00FF00;
+}

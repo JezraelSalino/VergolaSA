@@ -1,0 +1,17 @@
+# ignore folder(s)
+/administrator/cache/
+/cache/
+/images/document_handler/upload/
+/images/drawings/
+/images/file_upload/
+/images/pic/
+/images/pics/
+/logs/
+/tmp/
+
+
+# ignore file(s)
+configuration.php
+custom_agent.php
+custom_agent_configs.php
+custom_agent_functions.php

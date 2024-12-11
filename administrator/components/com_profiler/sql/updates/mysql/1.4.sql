@@ -1,0 +1,2 @@
+DELETE fp FROM `#__profiler_fieldprofile` AS fp WHERE fp.fieldid IN (SELECT f.id FROM `#__profiler_fields` AS f  WHERE f.extension="com_profiler_groups");
+DELETE fgp FROM `#__profiler_fieldgroupprofile` AS fgp WHERE fgp.catid IN (SELECT c.id FROM `#__profiler_categories` AS c  WHERE c.extension="com_profiler_groups");

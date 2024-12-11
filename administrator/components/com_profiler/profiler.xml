@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>Profiler</name>
+	<creationDate>June 2013</creationDate>
+	<author>Harold Prins</author>
+	<authorEmail>info@haroldprins.nl</authorEmail>
+	<authorUrl>http://www.haroldprins.nl</authorUrl>
+	<copyright>(C) 2012-2013 Harold Prins - All rights reserved.</copyright>
+	<license>GNU/GPL Version 2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<version>1.9</version>
+	<description>COM_PROFILER_DESCRIPTION</description>
+	
+	<scriptfile>script.php</scriptfile>
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+		</sql>
+	</uninstall>
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+	
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>profiler.php</filename>
+		<filename>controller.php</filename>
+		<filename>metadata.xml</filename>
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>views</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">site/en-GB/en-GB.com_profiler.ini</language>
+	</languages>
+	
+	<media destination="com_profiler" folder="media">
+		<filename>index.html</filename>
+		<folder>img</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+	</media>
+ 
+	<administration>
+		<menu img="class:user">COM_PROFILER_MENU</menu>
+		<submenu>
+			<menu link="option=com_profiler" view="users"  alt="Profiler/Users">COM_PROFILER_SUBMENU_USERS</menu>
+			<menu link="option=com_profiler&amp;view=groups" view="groups" alt="Profiler/Groups">COM_PROFILER_SUBMENU_GROUPS</menu>
+			<menu link="option=com_pffields&amp;extension=com_profiler" view="fields" alt="Profiler/Fields">COM_PROFILER_SUBMENU_FIELDS</menu>
+			<menu link="option=com_pffields&amp;extension=com_profiler&amp;prefix=_groups" view="fields_groups" alt="Profiler/Groupfields">COM_PROFILER_SUBMENU_GROUPFIELDS</menu>
+			<menu link="option=com_pffields&amp;extension=com_profiler&amp;view=categories" view="categories" alt="Profiler/Categories">COM_PROFILER_SUBMENU_CATEGORIES</menu>
+			<menu link="option=com_pffields&amp;extension=com_profiler&amp;view=categories&amp;prefix=_groups" view="categories" alt="Profiler/Categories">COM_PROFILER_SUBMENU_CATEGORIESGROUPS</menu>
+			<menu link="option=com_profiler&amp;view=profiles" view="profiles" alt="Profiler/Profiles">COM_PROFILER_SUBMENU_PROFILES</menu>
+			<menu link="option=com_profiler&amp;view=rights" view="rights" alt="Profiler/Rights">COM_PROFILER_SUBMENU_RIGHTS</menu>
+		</submenu>
+		<files folder="admin">
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>profiler.php</filename>
+			<folder>assets</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>sql</folder>
+			<folder>tables</folder>
+			<folder>views</folder>					
+		</files>
+		<languages folder="language">
+			<language tag="en-GB">admin/en-GB/en-GB.com_profiler.ini</language>
+			<language tag="en-GB">admin/en-GB/en-GB.com_profiler.sys.ini</language>
+		</languages>
+	</administration>
+	<updateservers>
+		<server type="extension" priority="1" name="Profiler Update Site">http://www.haroldprins.nl/update/profiler-update.xml</server>
+	</updateservers>
+</extension>

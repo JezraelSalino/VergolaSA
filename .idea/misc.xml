@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="ProjectResources">
+    <default-html-doctype>jar:file:\C:\Program Files\JetBrains\PhpStorm 2018.3\lib\platform-impl.jar!\standardSchemas\xhtml1-transitional.xsd</default-html-doctype>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="642636eb-1ff2-414b-a24c-3bc362769796" name="la.vergola.com" url="http://as-live.sa.vergola.com">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\VergolaSA_as_live" accessType="MOUNT" />
+      </webServer>
+      <webServer id="b75027b4-5a2b-41fb-9604-52526ce316c8" name="VergolaSA_as_live" url="http://as-live.sa.vergola.com">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\VergolaSA_as_live" accessType="MOUNT" />
+      </webServer>
+      <webServer id="4922c882-246b-4075-acec-63caa2845b09" name="Vergola_as_clone" url="http://as-clone.sa.vergola.com">
+        <fileTransfer port="0" mountedRoot="C:\xampp\htdocs\VergolaSA_as_clone" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

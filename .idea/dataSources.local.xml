@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="vergola_quotedb_sa_v1_as_live@localhost" uuid="9e81ea01-003f-4844-847e-0565875bc9b7">
+      <database-info product="MySQL" version="5.5.5-10.1.36-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MARIADB" exact-version="10.1.36">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:vergola_quotedb_sa_v1_as_live</introspection-schemas>
+    </data-source>
+    <data-source name="joomla.datasource" uuid="3d637023-b44d-4ad4-8b35-07aaf23db00a">
+      <database-info product="MySQL" version="5.5.5-10.1.36-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" dbms="MARIADB" exact-version="10.1.36">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <user-name>root</user-name>
+      <introspection-schemas>*:vergola_quotedb_sa_v1_as_live,vergola_quotedb_v5_us_as_live</introspection-schemas>
+    </data-source>
+  </component>
+</project>

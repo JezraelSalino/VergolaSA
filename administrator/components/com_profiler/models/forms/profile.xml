@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details" addfieldpath="/administrator/components/com_profiler/models/fields">
+		<field name="id" type="text" default="0" readonly="true" class="readonly" label="JGLOBAL_FIELD_ID_LABEL" description ="JGLOBAL_FIELD_ID_DESC"/>
+		<field name="readaccess" type="permaccesslevel" label="COM_PROFILER_PROFILE_FIELD_READACCESS_LABEL"	description="COM_PROFILER_PROFILE_FIELD_READACCESS_DESC" class="inputbox" size="1">
+			<option value="0">COM_PROFILER_GLOBAL</option>
+		</field>
+		<field menu="hide" name="accessroprivate" type="permradio" default="2" label="COM_PROFILER_CONFIG_FIELD_READACCESSPRIVATE_LABEL" description="COM_PROFILER_CONFIG_FIELD_READACCESSPRIVATE_DESC">
+			<option value="2">COM_PROFILER_GLOBAL</option>
+			<option value="0">COM_PROFILER_DISABLE</option>
+			<option value="1">COM_PROFILER_ENABLE</option>
+		</field>
+		<field name="access" type="permaccesslevel" label="COM_PROFILER_PROFILE_FIELD_EDITACCESS_LABEL"	description="COM_PROFILER_PROFILE_FIELD_EDITACCESS_DESC" class="inputbox" size="1">
+			<option value="0">COM_PROFILER_GLOBAL</option>
+		</field>
+		<field menu="hide" name="accessprivate" type="permradio" default="2" label="COM_PROFILER_CONFIG_FIELD_EDITACCESSPRIVATE_LABEL" description="COM_PROFILER_CONFIG_FIELD_EDITACCESSPRIVATE_DESC">
+			<option value="2">COM_PROFILER_GLOBAL</option>
+			<option value="0">COM_PROFILER_DISABLE</option>
+			<option value="1">COM_PROFILER_ENABLE</option>
+		</field>
+		<field name="deleteaccess" type="permaccesslevel" label="COM_PROFILER_PROFILE_FIELD_DELETEACCESS_LABEL"	description="COM_PROFILER_PROFILE_FIELD_DELETEACCESS_DESC" class="inputbox" size="1">
+			<option value="0">COM_PROFILER_GLOBAL</option>
+		</field>
+		<field name="registeraccess" type="permaccesslevel" label="COM_PROFILER_PROFILE_FIELD_REGISTER_LABEL" description="COM_PROFILER_PROFILE_FIELD_REGISTER_DESC" class="inputbox" size="1">
+			<option value="0">COM_PROFILER_GLOBAL</option>
+		</field>
+	</fieldset>
+</form>

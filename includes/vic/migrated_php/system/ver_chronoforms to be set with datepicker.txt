@@ -1,0 +1,22 @@
+ver_chronoforms for datepicker vs to be set with datepicker
+
+47 Add_Quote_Vic:
+<div class="ccms_form_element cfdiv_empty" id="empty_container_div" style=""><div class="clear"></div><div id="error-message-empty"></div></div>
+{"form_mode":"advanced","form_method":"post","auto_detect_settings":"1","load_files":"1","tight_layout":"0","action_url":"","form_tag_attach":"","add_form_tags":"1","relative_url":"1","dynamic_files":"0","show_top_errors":"1","datepicker_config":"","datepicker_type":"0","datepicker_moo_style":"datepicker_dashboard","enable_jsvalidation":"1","jsvalidation_errors":"0","jsvalidation_theme":"classic","jsvalidation_lang":"en","jsvalidation_showErrors":"0","jsvalidation_errorsLocation":"1","adminview_actions":"","dataview_actions":"","app_exclusive":"0"}
+
+
+28 Rep_UpdateList_Vic
+<div class="ccms_form_element cfdiv_empty" id="empty_container_div" style=""><div class="clear"></div><div id="error-message-empty"></div></div>
+{"form_mode":"advanced","form_method":"post","auto_detect_settings":"1","load_files":"1","tight_layout":"0","action_url":"","form_tag_attach":"","add_form_tags":"1","relative_url":"1","dynamic_files":"0","show_top_errors":"1","datepicker_config":"","datepicker_type":"0","datepicker_moo_style":"datepicker_dashboard","enable_jsvalidation":"0","jsvalidation_errors":"1","jsvalidation_theme":"classic","jsvalidation_lang":"en","jsvalidation_showErrors":"0","jsvalidation_errorsLocation":"1","adminview_actions":"","dataview_actions":"","app_exclusive":"0" }
+
+
+
+
+ver_chronoform_actions
+
+47
+{"field_class":"quotedate","pickerClass":"datepicker_dashboard","format":"d-M-Y ","inputOutputFormat":"d-M-Y H:i:s","allowEmpty":"1","timePicker":"0","timePickerOnly":"0"}
+
+
+28
+{"field_class":"date_entered","pickerClass":"datepicker_dashboard","format":"d-M-Y","inputOutputFormat":"d-M-Y","allowEmpty":"1","timePicker":"0","timePickerOnly":"0"}

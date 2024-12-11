@@ -1,0 +1,287 @@
+@charset "utf-8";
+/*** New Enquiry Stylesheet ***/
+
+#tabs_wrapper {
+	display: inline-block;
+	vertical-align: top;
+}
+#client #lastname, #client #firstname, #client #contact_firstname, #client #contact_lastname, #site-address #sfirstname, #site-address #slastname, #site #sfirstname, #site #slastname {
+	width: 146px;
+}
+select {
+	margin: 4px 0px;
+	padding: 2px;
+	border: 1px solid #014463;
+}
+#client .title, #site-address .title, #site .title {
+	width: 79px;
+}
+#client input, #builder input, #site-address input, #site input, .builder-tab .tab_content  input{
+	width: 386px;
+}
+
+#client #cstreetno, #builder #bstreetno, #site-address #sstreetno, .builder-tab .tab_content .bsub-class
+{width:105px;}
+
+#client #cstreetname, #builder #bstreetname, #site-address #sstreetname, .builder-tab .tab_content .bsub-class
+{width:270px;}
+
+.builder-tab .tab_content .bphone-class, .builder-tab .tab_content .bmobile-class, .builder-tab .tab_content .bfax-class {width:121px;}
+ 
+
+.ui-widget{font-size: 0.8em;}
+
+.ui-autocomplete{ width:250px; } 
+.ui-autocomplete li a {width: 100%; padding:3px 7px;}
+ 
+
+#client #csuburbpostcode, #client #csuburbstate,  
+#builder #bsuburbpostcode, #builder #bsuburbstate, 
+#builder-layer #bsuburbpostcode, #builder-layer #bsuburbstate, #builder-layer #bsuburblist, 
+#site-address #ssuburbpostcode, #site-address #ssuburbstate, #site-address #ssuburblist, #site #ssuburbpostcode, #site #ssuburbstate, 
+.builder-tab .tab_content #bsuburbpostcode, .builder-tab .tab_content #bsuburbstate, .builder-tab .tab_content #bsuburblist, .builder-tab .tab_content .bstate-class,.builder-tab .tab_content .bpost-class 
+{
+	width: 88px;
+}
+#client #cwkphone, #client #chmphone, #client #cmobile, #client #cother, #site-address #swkphone, #site-address #shmphone, #site-address #smobile, #site-address #sother, #site #swkphone, #site #shmphone, #site #smobile, #site #sother {
+	width: 187px;
+}
+#builder #b_wphone, #builder #b_mobile, #builder #b_fax, #builder-layer #b_wphone, #builder-layer #b_mobile, #builder-layer #b_fax,
+.builder-tab .tab_content #b_wphone, .builder-tab .tab_content #b_mobile, .builder-tab .tab_content #b_fax {
+	width: 121px;
+}
+#builder #builderlist, .builder-tab .tab_content #builderlist {
+	width: 393px;
+}
+#site-address #sbtn {
+	border: 1px solid #026695;
+	width: 395px;
+	margin: 2px 0px 5px 2px;
+	padding: 4px;
+	cursor: pointer;
+	background-color: #4285F4;
+	color: #fff;
+}
+.info-tab #ibtn {
+	border: 1px solid #026695;
+	width: 190px;
+	margin: 5px;
+	padding: 3px;
+	cursor: pointer;
+	background-color: #4285F4;
+	color: #fff;
+}
+#tracker #date-entered, #tracker #takenid {
+	visibility: visible!important;
+}
+.info-tab .rep {
+	width: 145px;
+}
+.info-tab .lead-type, .info-tab .last-rep, .info-tab .taken {
+	width: 193px;
+}
+.info-tab .icalendar {
+	width: 185px;
+}
+#tracker .date_entered {
+	padding: 4px 3px 2px 90px;
+	width: 100px;
+}
+#tracker #iappointment {
+	padding: 4px 3px 2px 90px;
+	width: 238px;
+}
+#tracker .last-rep, #tracker #replist, #tracker #leadlist {
+	width: 195px;
+}
+#tracker #username {
+	padding: 4px 3px 2px 65px;
+	width: 125px
+}
+#tabs_wrapper.notes-tab, #tabs_wrapper.quote-tab {
+/*		width: auto!important;
+	min-width: 840px;
+	max-width: 840px;*/
+}
+#tabs_wrapper.notes-tab #tabs_content_container, #tabs_wrapper.quote-tab #tabs_content_container {
+	width: auto;
+	/*min-width: 400px;
+	max-width: 838px;*/
+}
+.button-tab #bcbtn, .button-tab #bsbtn, #quote #new-quote {
+	border: 1px solid #026695;
+	width: 190px;
+	margin: 5px 0px;
+	padding: 2px;
+	cursor: pointer;
+	background-color: #4285F4;
+	color: #fff;
+}
+/** Notes Tab **/
+.notes-tab #tbl-notes-head, .notes-tab #tbl-notes, .notes-tab #tbl-content {
+	width: 835px;
+	max-width: 835px;
+	background-color: #f7f7f7;
+	text-align: right;
+}
+.notes-tab #tbl-notes-head th.tbl-date, .notes-tab #tbl-notes-head th.tbl-complete {
+	width: 140px;
+	max-width: 140px;
+}
+.notes-tab #tbl-notes-head th.tbl-complete {
+	text-align: center;
+}
+.notes-tab #tbl-notes-head th.tbl-whom, .notes-tab #tbl-notes-head th.tbl-action, .notes-tab #tbl-notes td.tbl-whom, .notes-tab #tbl-notes td.tbl-action {
+	width: 140px;
+	max-width: 140px;
+}
+.notes-tab #tbl-notes td.tbl-date, .notes-tab #tbl-notes td.tbl-complete, .notes-tab #tbl-content td.tbl-date, .notes-tab #tbl-content td.tbl-complete {
+	width: 140px;
+	max-width: 140px;
+}
+.notes-tab #tbl-notes td.tbl-whom, .notes-tab #tbl-notes td.tbl-action, .notes-tab #tbl-content td.tbl-whom, .notes-tab #tbl-content td.tbl-action {
+	width: 140px;
+	max-width: 140px;
+}
+.notes-tab #tbl-notes-head th, .notes-tab #tbl-notes td, .notes-tab #tbl-content td {
+	padding: 5px 3px;
+	border: none;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.notes-tab #tbl-notes td input, .notes-tab #tbl-content td input {
+	border: none;
+	width: 133px;
+}
+.notes-tab #tbl-notes td input#check, .notes-tab #tbl-content td input#check {
+	width: 125px;
+}
+.notes-tab #tbl-notes td select, .notes-tab #tbl-content td select {
+	width: 135px;
+}
+.notes-tab #tbl-notes td textarea {
+	width: 815px;
+	height: 170px;
+	display: block;
+	padding: 5px;
+}
+.notes-tab #btnadd, .drawing-tab input[type="button"], #drawing input[type="button"], .notes-tab #drawing input[type="submit"], .notes-tab #pics input[type="submit"]{
+	background-color: #4285F4;
+	border: 1px solid #026695;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin: 5px 0;
+	padding: 2px;
+	width: auto;
+}
+.drawing-tab #tbl-draw, #drawing #tbl-img, #drawing #tbl-draw, #pics #tbl-imgpic, #pics #tbl-pic{
+	 
+}
+#notes #checknotes {
+	width: 50px;
+	margin: 0px 0px 0px 45px;
+	padding: 2px;
+}
+#notes #completed {
+	background-color: #FFFF00;
+	float: left;
+	padding: 3px 1px;
+	text-align: center;
+}
+#notes .layer-date, #notes .layer-whom {
+	width: auto;
+	display: inline-block;
+	padding-top: 5px;
+}
+#tabs_wrapper.notes-tab #notes, #tabs_wrapper #tabs_content_container #drawing #drawing-tbl {
+	height: 230px;
+	overflow: auto;
+}
+#tabs_wrapper.notes-tab #notes {width:825px;}
+
+#tabs_wrapper.drawing-tab #draw, #tabs_wrapper #tabs_content_container #quote, #tabs_wrapper #tabs_content_container #letter {
+	height: 265px;
+	overflow: auto;
+}
+#tbl-draw td, #tbl-img td, #tbl-imgpic td, #tbl-pic td {
+	padding: 5px;
+}
+#drawing td.tbl-chk, #pics td.tbl-chk {
+	width: 20px;
+}
+
+.tbl-upload {
+	width: 90%;
+}	
+/** Button Tab **/
+#tabs_wrapper.button-tab {
+	width: auto;
+	margin-top: 30px;
+}
+
+#tabs_wrapper.siteadd-tab{
+	width: 28%;
+}
+/**** Letter Template ****/
+#letter input[type="button"] {
+	background-color: #4285F4;
+	border: 1px solid #026695;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin: 5px 0;
+	padding: 2px;
+	width: auto;
+}
+#letter #tbl-letters td, #letter #drawing-tbl td {
+	padding: 5px;
+}
+#letter #drawing-tbl {
+	margin-top: 20px;
+}
+
+/*** Quote Info Styling***/
+#quote table#tbl-quoted {width:100%;}
+#quote table#tbl-quoted th, #quote table#tbl-quoted td {border: 1px solid #ccc; padding:5px 3px;}
+
+
+
+/** Hacks for Safari and Chrome **/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#client #cwkphone, #client #chmphone, #client #cmobile,  #site-address #swkphone, #site-address #shmphone, #site-address #smobile {
+	width: 187px;
+}
+.info-tab #ibtn {
+	padding: 3px 2px;
+}
+
+
+}
+
+
+.notification span{
+	width: 250px;
+	padding-left: 3px;
+	border: 1px solid #FE8888;
+	border-radius: 2px;
+	box-shadow: 5px 5px 5px #888888;
+}
+
+ul.picture-block{
+	margin: 0;
+	padding: 0; 
+	width: 99%;
+	display: flex;
+  	flex-wrap: wrap;
+}
+
+ul.picture-block li{
+	/*display: table-cell;
+	width: 20%;*/
+	min-height: 120px;  
+	text-align: center;
+
+	flex: 0 0 18%;
+	/*border: 1px solid grey; */
+	display: table-cell;
+	align-items: flex-end;
+}	

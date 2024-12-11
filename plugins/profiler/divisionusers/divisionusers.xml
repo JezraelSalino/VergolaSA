@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="profiler" method="upgrade">
+	<name>PLG_PROFILER_DIVISIONUSERS</name>
+	<author>Harold Prins</author>
+	<creationDate>June 2013</creationDate>
+	<copyright>Copyright (C) 2013 Harold Prins. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@haroldprins.nl</authorEmail>
+	<authorUrl>www.haroldprins.nl</authorUrl>
+	<version>1.0</version>
+	<description>PLG_Profiler_DIVISIONUSERS_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<profiler>
+		<view>
+			<id>plgdivisionusers</id>
+			<label>Users</label>
+			<extension>profiler_groups</extension>
+		</view>
+	</profiler>
+	<files>
+		<filename plugin="divisionusers">divisionusers.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_profiler_divisionusers.ini</language>
+		<language tag="en-GB">en-GB.plg_profiler_divisionusers.sys.ini</language>
+	</languages>
+	<config>
+	</config>
+</extension>

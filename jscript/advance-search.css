@@ -1,0 +1,17 @@
+#advance-search {display:none;}
+#advlist2 {display:none;}
+#advance-search select{width:148px;margin:0px 5px 0px 5px;}
+#advance-search input {width:140px;}
+#advance-search select, #advance-search .input span{font-weight:normal;}
+#advance-search .input span {padding:3px 5px 5px 10px;}
+#advance-search select option {padding:2px 5px 5px 10px;}
+
+#advance-search {border:1px solid #1D0D41; height:100px; margin: 10px 5px 10px 55px;
+    padding: 10px;
+    width: 650px; border-radius:5px;}
+#searchdate {margin:45px 5px 5px;}
+#searchdate  div {display:inline-block;margin-right:10px;}
+/** Hacks for Safari and Chrome **/
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  
+}

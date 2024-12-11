@@ -1,0 +1,252 @@
+.input {
+  margin: 5px 0;
+  background: white;
+  float: left;
+
+}
+.input span {
+  position: absolute;
+  padding: 5px;
+  margin-left: 3px;
+  color: #999;
+}
+.input input, .input textarea, .input select {
+  position: relative;
+  margin: 0 0 0 3px;
+  border: 1px solid #97989a;
+  background: transparent;
+  font: inherit;
+  font-size:12px;
+}
+
+.input select {padding: 2px 2px 2px 5px; height:23px;}
+.input input, .input textarea {padding: 2px 2px 6px 4px;}
+/* Hack to remove Safari's extra padding. Remove if you don't care about pixel-perfection. */
+
+/* @media screen and (-webkit-min-device-pixel-ratio:0) { */
+    /* .input input, .input textarea, .input select { padding: 2px 2px 4px 4px; } */
+/* } */
+
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+    @media {
+        .safari6 { 
+            .input input, .input textarea, .input select { padding: 2px 2px 4px 4px; }
+        }
+    }
+}
+
+/* Hack for Firefox */
+@-moz-document url-prefix() {
+.input input, .input textarea {padding: 2px 2px 4px 4px;}
+}
+
+
+
+/* ######### CSS for Shade Tabs. Remove if not using ######### */
+.shadetabs{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+background-color:#eff0f2;
+text-decoration: none;
+position: relative;
+z-index: 1;
+padding: 13px 14px 14px;
+margin:0px 0px 0px 0px;
+line-height:1.7em;
+border: 1px solid #CCC;
+color: #000!important;
+border-radius:5px 5px 0 0;
+}
+
+body.contract-listing-vic #tracker-tabs.shadetabs li a {padding: 13px 10px 14px;}
+
+.builder-tab #tabs_container ul.shadetabs {margin:6px 0px 11px;}
+.builder-tab .shadetabs li a {padding: 13px 5px 14px;}
+
+.shadetabs li a:visited{
+color: #000;
+}
+
+.shadetabs li a:hover, .shadetabs li a:link, .shadetabs li a:focus{
+background-color:#fff;
+font-weight:normal;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+position: relative;
+top: 1px;
+
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+background-color:#fff;
+border-bottom-color: white;
+border-top-color:#ED9D31;
+border-top-width:2px;
+
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+.tabcontent{
+display:none;
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+
+
+
+/**** Tabs *****/
+
+#tabs_wrapper {
+    /*width: 422px;*/
+    margin:10px 5px 10px;
+}
+
+#tabs_wrapper.client-builder-tab{   
+    width: 28%;
+}
+
+#tabs_wrapper.quote-tab{    
+    width: 70%;
+}
+
+#tabs_wrapper.info-tab{ 
+    width: 40%;
+}
+
+#tabs_wrapper.notes-tab{    
+    width: 58%;
+}
+
+#tabs_wrapper.notes-tab{    
+    /*width: 54% !important;*/
+}
+
+#tabs_container {
+    border-bottom: 1px solid #ccc;
+    
+}
+
+#tabs_container ul {margin:11px 0px;padding:0px;}
+
+#tabs_container .label-input-row{
+    width: 100%;
+}
+
+.label-input-row label{
+    display: inline;
+    background: white none repeat scroll 0 0;
+}
+
+.label-input-row .input{
+    width:30%;
+}
+
+
+
+span.vs-label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+span.vs-label label{
+    display: inline-block;
+    text-align: right;
+    width: 8em;
+    display: inline-block;
+}    
+
+span.vs-label input{
+    margin-right: 4px;
+}
+
+
+
+
+#tabs_default {
+    list-style: none;
+    padding: 5px 0 4px 0;
+    margin: 0 0 0 10px;
+    font: 0.75em arial;
+}
+#tabs_default li {
+    display: inline;
+}
+
+#tabs_default li span {
+    font-size:14px;
+    color:#000;
+    border: 1px solid #ccc;
+    padding: 5px 12px;
+    text-decoration: none;
+    background-color: #eeeeee;
+    border-bottom: none;
+    outline: none;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+}
+
+#tabs_default li.active span {
+    color:#000;
+    border-bottom: 1px solid #fff;
+    background-color: #fff;
+    padding: 12px;
+    border-bottom: none;
+    border-top-color:#ED9D31;
+    border-top-width:2px;
+}
+
+#tabs_content_container {
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 10px; 
+    min-height:265px;
+    overflow:auto;
+}
+
+
+
+ 
+
+ tr.th-smaller th{
+    font-size: 11px;
+}
+
+ tr.td-smaller td{
+    font-size: 11px;
+}
+
+#contract_table_list tr.td-smaller td{
+    font-size: 9px;
+}
+
+.fc-event-container a:link, .fc-event-container a:visited{
+    color:#fff !important;
+}
+
+.fc-event-container a:hover{
+    background: #310E0F !important;
+}

@@ -1,0 +1,97 @@
+@charset "utf-8";
+/*** New Enquiry Stylesheet ***/
+
+.left-section {float:left;padding-right:100px;}
+.right-section {display:inline-block; width:600px;}
+.btnclass {text-align:left;margin:20px 1px;}
+
+.btnclass input, .right-section input[type=button] {border: 1px solid #000000;
+    height: 28px;
+    padding: 2px;
+    width: 215px;
+	cursor:pointer;}
+	
+.right-section input[type=text] {border: 1px solid #000000;
+    height: 22px;
+    padding: 2px;
+    width: 400px;
+}
+.right-section table, .right-section tr{border:none!important;}
+.right-section td {border:none;padding:5px;}
+	
+.right-section input[type=button] {margin:5px 0px 5px;}
+.right-section .del-section {border: 1px solid #000000;
+    cursor: pointer;
+    height: 28px;
+    padding: 2px;
+    width: 215px;}
+
+.right-section #update.update-btn {
+border: 1px solid #000000;
+    cursor: pointer;
+    height: 28px;
+    padding: 2px;
+    width: 55px;}
+
+.inventory-table {margin:0px 100px 20px 0px;width:50%;}
+
+.inventory-table, tr, td{border:none!important;}
+.inventory-table select {width:100%; height:21px;border:1px solid #4d4c4c;}
+
+.inventory-table input#desc {width:100%; height:21px;border:1px solid #4d4c4c;}
+.inventory-table input#uom, .inventory-table input#rrp { width:100%; height:21px;border:1px solid #4d4c4c;}
+#postbtn input.update-btn {height:22px;border:1px solid #4d4c4c;}
+.raw-material-table input#rawdesc {width:200px;height:21px;border:1px solid #4d4c4c;}  
+#postbtn input.update-btn {width:100px;cursor:pointer;}
+.inventory-table td, .inventory-table th {padding:3px;}
+.inventory-table, #matcontainer, #postbtn {float:left;}
+#postbtn {margin-top:30px;width:50%;}
+.inventory-table td.sec, .inventory-table td.cat, .inventory-table td.sup{min-width:140px;width:20%;}
+.inventory-table td.desc {min-width:150px;width:30%;}
+.inventory-table td.uom, .inventory-table td.rrp {min-width:70px;width:5%}
+
+.inventory-table td.desc input, .inventory-table td.uom input, .inventory-table td.rrp input {padding-left:2px;}
+
+#matcontainer {min-height:50px;width:50%; margin:0px 100px 20px 0px;}
+#img-container {display:inline-block; width:30%;min-width:450px;}
+#img-container img.imgup {width:75%;}
+#matcontainer [type="checkbox"] {margin-left:3px;}
+#matcontainer [type="button"] {margin-bottom:10px;}
+#matcontainer [type="button"], #matcontainer [type="submit"] {padding:2px;height:23px;border:1px solid #4d4c4c;cursor:pointer;}
+
+#matcontainer #tbl-retrieve th:nth-child(2), #matcontainer #tbl-retrieve th:nth-child(3) {padding-left:12px;}
+#matcontainer th:first-child, #matcontainer #tbl-raw td.tbl-chk, #matcontainer #tbl-retrieve td.tbl-chk { }
+#matcontainer .del {width:20px;height:20px;}
+#matcontainer table, #matcontainer th, #matcontainer tr, #matcontainer tbody {border:none!important;}
+#matcontainer #tbl-raw td input.inpdesc, #matcontainer #tbl-retrieve td.tbl-desc input{width:240px;margin-left:12px;}
+#matcontainer #tbl-raw td input.inpcost, #matcontainer #tbl-retrieve td.tbl-cost input{width:80px;margin-left:12px;}
+#matcontainer #tbl-retrieve td.btnlink a {color:#000;padding:3px 5px 2px;height:18px;border:1px solid #4d4c4c;margin:1px; cursor:pointer; background-color:#F0F0F0;}
+#matcontainer #tbl-retrieve td.btnlink a:hover {color:#000;}
+#tbl-raw td input, #matcontainer .tbl-desc input{padding:2px;height:18px;border:1px solid #4d4c4c;margin:1px;}
+#matcontainer .tbl-qty input, #matcontainer .tbl-cost input {padding:2px;height:18px;border:1px solid #4d4c4c;margin:1px; text-align: right;}
+#tbl-raw td.tbl-chk {padding:0px;}
+.sum {position:absolute;margin:70px 0px 0px 405px;border:1px solid #ff0000;padding:2px;}
+.sum h3{padding:0px; margin:9px!important;line-height:0px;}
+
+
+.ui-widget{
+    font-size:0.8em !important;
+}
+  
+#default_dimension_box  .ui-widget input, #default_dimension_box .ui-widget select, #default_dimension_box  .ui-widget textarea, #default_dimension_box .ui-widget button{
+    font-size:1em;
+}
+
+#default_dimension_box input[type="text"] {
+    width:70px;
+    margin: 2px 4px;
+    text-align: right;
+}
+
+#default_dimension_box .ui-dialog-titlebar{
+    background:rgba(0, 0, 0, 0) -moz-linear-gradient(center top , #0272a7 0%, #013953 100%) repeat scroll 0 0;
+}
+
+.ui-autocomplete{
+    text-align: left;
+}

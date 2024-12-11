@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details" addfieldpath="/administrator/components/com_profiler/models/fields">
+		<field name="name" type="text" default='' label="COM_PROFILER_USERUPLOAD_FIELD_NAME_LABEL" description="COM_PROFILER_USERUPLOAD_FIELD_NAME_DESC" />
+		<field name="type" type="radio"	default="0"	label="COM_PROFILER_USERUPLOAD_FIELD_TYPE_LABEL" description="COM_PROFILER_USERUPLOAD_FIELD_TYPE_DESC" required="true">				
+			<option	value="0">COM_PROFILER_USERUPLOAD_FIELD_TYPE_OPTION_CSV</option>
+		</field>
+		<field name="enclosure" type="text" default='"' label="COM_PROFILER_USERUPLOAD_FIELD_ENCLOSURE_LABEL" description="COM_PROFILER_USERUPLOAD_FIELD_LINESEPARATOR_DESC" />
+		<field name="delimiter" type="text" default=";" label="COM_PROFILER_USERUPLOAD_FIELD_DELIMITER_LABEL" description="COM_PROFILER_USERUPLOAD_FIELD_FIELDSEPARATOR_DESC" />
+		<field name="newuserid" type="checkbox" value="1" label="COM_PROFILER_USERUPLOAD_FIELD_NEWUSERID_LABEL" description="COM_PROFILER_USERUPLOAD_FIELD_NEWUSERID_DESC" />
+		<field name="synchronize" type="list" default="1" label="COM_PROFILER_USERUPLOAD_FIELD_SYNCHRONIZE_LABEL" description="COM_PROFILER_USERUPLOAD_FIELD_SYNCHRONIZE_DESC">
+				<option value="" >COM_PROFILER_USERUPLOAD_OPTION_ADD</option>
+				<option value="1" >COM_PROFILER_USERUPLOAD_OPTION_SYNCHRONIZESIMPLE</option>
+				<option value="2" >COM_PROFILER_USERUPLOAD_OPTION_SYNCHRONIZEFULL</option>
+		</field>
+		
+		
+		<field name="synchronizefield" type="text" value="" label="COM_PROFILER_USERUPLOAD_FIELD_SYNCHRONIZEFIELD_LABEL" description="COM_PROFILER_USERUPLOAD_FIELD_SYNCHRONIZEFIELD_DESC" />
+		<field name="password" type="radio"	default="2"	label="COM_PROFILER_USERUPLOAD_FIELD_PASSWORD_LABEL" description="COM_PROFILER_USERUPLOAD_FIELD_PASSWORD_DESC">				
+			<option	value="0">COM_PROFILER_USERUPLOAD_FIELD_PASSWORD_OPTION_HASHUPLOAD</option>
+			<option	value="1">COM_PROFILER_USERUPLOAD_FIELD_PASSWORD_OPTION_UPLOAD</option>
+			<option	value="2">COM_PROFILER_USERUPLOAD_FIELD_PASSWORD_OPTION_RANDOM</option>
+		</field>
+		<field name="multiple" type="textarea" default="groups"	label="COM_PROFILER_USERUPLOAD_FIELD_MULTIPLI_LABEL" description="COM_PROFILER_USERUPLOAD_FIELD_MULTIPLE_DESC"/>			
+		<field name="file" type="file"	label="COM_PROFILER_USERUPLOAD_FIELD_FILE_LABEL" description="COM_PROFILER_USERUPLOAD_FIELD_FILE_DESC" required="true"/>
+	</fieldset>
+</form>

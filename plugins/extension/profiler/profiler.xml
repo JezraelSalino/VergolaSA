@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="extension" method="upgrade">
+	<name>Extension Profiler</name>
+	<author>Harold Prins</author>
+	<creationDate>June 2013</creationDate>
+	<copyright>Copyright (C) 2013 Harold Prins. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@haroldprins.nl</authorEmail>
+	<authorUrl>www.haroldprins.nl</authorUrl>
+	<version>1.1</version>
+	<description></description>
+	<scriptfile>script.php</scriptfile>
+	<files>
+		<filename plugin="profiler">profiler.php</filename>
+		<filename>index.html</filename>
+	</files>
+</extension>

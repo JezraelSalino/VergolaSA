@@ -1,0 +1,356 @@
+        .vr_table_1 {
+            /*width: 100%;*/
+            border-spacing: 0px;
+        }
+
+        .vr_table_2 {
+            min-width: 1050px;
+            width: 100%;
+            /*
+            max-width: 1900px;
+            */
+            border-spacing: 0px;
+        }
+
+        .vr_table_head_1 {
+            padding: 4px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid #cccccc;
+        }
+
+        .vr_table_head_2 {
+            padding: 4px;
+            text-align: left;
+            font-weight: bold;
+            border: 1px solid #cccccc;
+            color: #4D4D4D;
+            background-color: #EEEEEE;
+        }
+
+        .vr_table_head_3 {
+            padding: 4px;
+            text-align: left;
+            font-weight: bold;
+            border: 0px solid #cccccc;
+        }
+
+        .vr_table_head_4 {
+            padding: 4px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 14pt;
+            border: 0px solid #cccccc;
+        }
+
+        .vr_table_body_1 {
+            padding: 4px;
+            text-align: left;
+            border: 1px solid #cccccc;
+            vertical-align: top;
+        }
+
+        .vr_table_body_3 {
+            padding: 4px;
+            text-align: left;
+            border: 0px solid #cccccc;
+        }
+
+        .vr_form_field_name_1 {
+            width: 150px;
+            vertical-align: top;
+        }
+
+        .vr_form_field_name_2 {
+            width: 10px;
+            vertical-align: top;
+        }
+
+        .vr_form_field_description_1 {
+            min-width: 210px;
+            width: 20%;
+            vertical-align: top;
+        }
+        .vr_form_field_webbing_1 {
+            min-width: 90px;
+            width: 9%;
+            vertical-align: top;
+        }
+        .vr_form_field_colour_1 {
+            min-width: 90px;
+            width: 9%;
+            vertical-align: top;
+        }
+        .vr_form_field_finish_1 {
+            min-width: 90px;
+            width: 9%;
+            vertical-align: top;
+        }
+        .vr_form_field_uom_1 {
+            min-width: 50px;
+            width: 5%;
+            vertical-align: top;
+        }
+        .vr_form_field_qty_1 {
+            min-width: 60px;
+            width: 6%;
+            vertical-align: top;
+        }
+        .vr_form_field_length_1 {
+            min-width: 140px;
+            width: 13%;
+            vertical-align: top;
+        }
+        .vr_form_field_rrp_1 {
+            min-width: 60px;
+            width: 6%;
+            vertical-align: top;
+        }
+        .vr_form_field_image_1 {
+            min-width: 140px;
+            width: 13%;
+            vertical-align: top;
+        }
+        .vr_form_field_action_1 {
+            min-width: 120px;
+            width: 11%;
+            vertical-align: top;
+        }
+
+        .vr_form_sub_table_1 {
+            vertical-align: top;
+        }
+
+        .vr_form_field_selectbox_1 {
+            width: 305px;
+            height: 25px;
+        }
+
+        .vr_form_field_selectbox_2 {
+            width: 155px;
+            height: 25px;
+        }
+
+        .vr_form_field_selectbox_3 {
+            width: 275px;
+            height: 25px;
+        }
+
+        .vr_form_field_selectbox_4 {
+            width: 105px;
+            height: 25px;
+        }
+
+        .vr_form_field_textbox_1 {
+            min-width: 150px;
+            min-height: 23px;
+        }
+
+        .vr_form_field_textbox_2 {
+            width: 70px;
+            height: 23px;
+            background-color: #333333;
+            border: 1px solid;
+            color: #ffffff;
+        }
+
+        .vr_form_field_textbox_3 {
+            width: 70px;
+            height: 23px;
+            background-color: #e6ccb3;
+            border: 1px solid;
+        }
+
+        .vr_form_field_textbox_4 {
+            min-width: 80px;
+            min-height: 23px;
+        }
+
+        .vr_form_field_textbox_meter_1 {
+            width: 60px;
+            height: 23px;
+        }
+        .vr_form_field_textbox_mm_1 {
+            width: 60px;
+            height: 23px;
+        }
+        .vr_form_field_textbox_feet_1 {
+            width: 40px;
+            height: 23px;
+        }
+        .vr_form_field_textbox_inch_1 {
+            width: 40px;
+            height: 23px;
+        }
+        .vr_form_field_selectbox_fraction_1 {
+            width: 60px;
+            height: 25px;
+        }
+
+        .vr_form_field_textbox_meter_2 {
+            width: 60px;
+            height: 23px;
+            background-color: #333333;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+        }
+        .vr_form_field_textbox_mm_2 {
+            width: 60px;
+            height: 23px;
+            background-color: #333333;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+        }
+        .vr_form_field_textbox_feet_2 {
+            width: 40px;
+            height: 23px;
+            background-color: #333333;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+        }
+        .vr_form_field_textbox_inch_2 {
+            width: 40px;
+            height: 23px;
+            background-color: #333333;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+        }
+        .vr_form_field_selectbox_fraction_2 {
+            width: 60px;
+            height: 25px;
+            background-color: #333333;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+        }
+
+        .vr_form_field_button_1 {
+            min-width: 75px;
+            min-height: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .vr_form_field_log_1 {
+            position: relative;
+            float: left;
+            top: -5px;
+            left: 5px;
+            width: 180px;
+            display: none;
+            background-color: #cccccc;
+            border: 1px solid #eeeeee;
+        }
+
+        .vr_form_container_1 {
+            display: none;
+            width: 1000px;
+            height: 200px;
+            border: 1px solid #cccccc;
+            overflow: scroll;
+        }
+
+        .vr_form_intro_table_area {
+            display: none;
+        }
+
+        .bom_table_1 {
+            /*width: 100%;*/
+            border-spacing: 0px;
+        }
+
+        .bom_table_head_1 {
+            padding: 4px;
+            text-align: left;
+            vertical-align: top;
+            font-weight: bold;
+            border: 0px solid #cccccc;
+        }
+
+        .bom_table_head_2 {
+            padding: 4px;
+            text-align: center;
+            vertical-align: top;
+            font-weight: bold;
+            border: 0px solid #cccccc;
+        }
+
+        .bom_table_image_side_1 {
+            width: 500px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .bom_table_dimension_side_1 {
+            width: 300px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .bom_table_body_1 {
+            padding: 4px;
+            text-align: left;
+            border: 0px solid #cccccc;
+            font-size: 14pt;
+            color: #4D4D4D;
+        }
+
+        .bom_table_body_2 {
+            padding: 4px;
+            text-align: left;
+            border: 0px solid #cccccc;
+        }
+
+        .bom_form_field_button_1 {
+            min-width: 75px;
+            min-height: 25px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .bom_form_field_selectbox_1 {
+            min-width: 155px;
+            min-height: 25px;
+        }
+
+        .bom_form_field_textbox_1 {
+            min-width: 150px;
+            min-height: 23px;
+        }
+
+        .bom_form_field_text_1 {
+            font-weight: normal;
+            font-size: 7pt;
+            font-style: italic;
+        }
+
+        .bom_form_field_image_1 {
+            height: 50px;
+        }
+
+        .bom_form_field_image_2 {
+            width: 350px;
+            height: 170px;
+        }
+
+        .bom_form_item_dimension_data_entry_table {
+            width: 800px; 
+            height: 400px; 
+            background-color: #ffffff;
+        }
+        .vr_item_data_entry_image_full_size_container_1 {
+            position: relative; 
+            width: 0px; 
+            height: 0px; 
+            display: none;
+        }
+        .vr_item_data_entry_image_full_size_area_1 {
+            position: absolute; 
+            left: -800px; 
+            top: -20px; 
+            /*
+            width: 300px; 
+            height: 100px; 
+            */
+            background-color: #ffeecc; 
+            border: 1px solid #cccccc;
+        }

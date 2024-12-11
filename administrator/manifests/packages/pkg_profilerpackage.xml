@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="2.5">
+  <name>Profiler Package</name>
+  <packager>Harold Prins</packager>
+  <packagename>profilerpackage</packagename>
+  <packagerurl>http://www.haroldprins.nl</packagerurl>
+  <creationDate>June 2013</creationDate>
+  <author>Harold Prins</author>
+  <authorEmail>info@haroldprins.nl</authorEmail>
+  <authorUrl>http://www.haroldprins.nl</authorUrl>
+  <copyright>(C) 2013 Harold Prins - All rights reserved.</copyright>
+  <license>GNU/GPL Version 2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+  <version>1.9</version>
+  <description>Profiler is an Advanched Membership System.</description>
+  <files folder="packages">
+		<file type="plugin" id="profiler" group="extension">plg_extension_profiler_1.1.zip</file>
+		<file type="plugin" id="divisionusers" group="profiler">plg_profiler_divisionusers25_1.0.zip</file>
+		<file type="component" id="com_pffields">com_pffields_1.9.tar.gz</file>
+		<file type="component" id="com_profiler">com_profiler_1.9.tar.gz</file>
+		<file type="plugin" id="profiler" group="system">plg_system_profiler_1.1.zip</file>
+  </files>
+</extension> 

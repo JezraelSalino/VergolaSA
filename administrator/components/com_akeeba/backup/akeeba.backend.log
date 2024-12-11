@@ -1,0 +1,361 @@
+DEBUG   |190319 10:41:08|*** Batching successive steps (nesting level 1)
+DEBUG   |190319 10:41:08|====== Starting Step number 1 ======
+DEBUG   |190319 10:41:08|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |190319 10:41:08|AECoreDomainInit :: New instance
+DEBUG   |190319 10:41:08|----- Finished operation 1 ------
+INFO    |190319 10:41:08|--------------------------------------------------------------------------------
+INFO    |190319 10:41:08|Akeeba Backup 3.6.12 (2013-01-04)
+INFO    |190319 10:41:08|Got backup?
+INFO    |190319 10:41:08|--------------------------------------------------------------------------------
+INFO    |190319 10:41:08|--- System Information ---
+INFO    |190319 10:41:08|PHP Version        :5.6.38
+INFO    |190319 10:41:08|PHP OS             :WINNT
+INFO    |190319 10:41:08|PHP SAPI           :apache2handler
+INFO    |190319 10:41:08|OS Version         :Windows NT
+INFO    |190319 10:41:08|DB Version         :5.5.5-10.1.36-MariaDB
+INFO    |190319 10:41:08|Web Server         :Apache/2.4.34 (Win32) OpenSSL/1.0.2o PHP/5.6.38
+INFO    |190319 10:41:08|Joomla! version    :2.5.11
+INFO    |190319 10:41:08|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:65.0) Gecko/20100101 Firefox/65.0
+INFO    |190319 10:41:08|Safe mode          :
+INFO    |190319 10:41:08|Display errors     :
+INFO    |190319 10:41:08|Error reporting    :
+INFO    |190319 10:41:08|Error display      :off
+INFO    |190319 10:41:08|Disabled functions :
+INFO    |190319 10:41:08|open_basedir restr.:
+INFO    |190319 10:41:08|Max. exec. time    :259200
+INFO    |190319 10:41:08|Memory limit       :200M
+INFO    |190319 10:41:08|Current mem. usage :5609984
+INFO    |190319 10:41:08|GZIP Compression   : available (good)
+INFO    |190319 10:41:08|JPATH_BASE         :<root>\administrator
+INFO    |190319 10:41:08|JPATH_SITE         :<root>
+INFO    |190319 10:41:08|JPATH_ROOT         :<root>
+INFO    |190319 10:41:08|JPATH_CACHE        :<root>/cache
+INFO    |190319 10:41:08|Computed root      :<root>
+INFO    |190319 10:41:08|Output directory   :<root>/administrator/components/com_akeeba/backup
+INFO    |190319 10:41:08|--------------------------------------------------------------------------------
+INFO    |190319 10:41:08|Akeeba Backup has detected the following potential problems:
+INFO    |190319 10:41:08|- 203 Default output directory in use (low)
+INFO    |190319 10:41:08|You probably do not have to worry about them, but you should be aware of them.
+INFO    |190319 10:41:08|--------------------------------------------------------------------------------
+INFO    |190319 10:41:08|Loaded profile #1
+DEBUG   |190319 10:41:08|Archive template name: site-[HOST]-[DATE]-[TIME]
+DEBUG   |190319 10:41:08|Expanded template name: site-as-live.sa.vergola.com-20190319-094108
+DEBUG   |190319 10:41:08|Backup type is now set to 'full'
+DEBUG   |190319 10:41:08|Expanded archive file name: <root>/administrator/components/com_akeeba/backup/site-as-live.sa.vergola.com-20190319-094108.jpa
+DEBUG   |190319 10:41:08|Initializing archiver engine
+DEBUG   |190319 10:41:08|AEArchiverJpa :: new instance - archive <root>/administrator/components/com_akeeba/backup/site-as-live.sa.vergola.com-20190319-094108.jpa
+DEBUG   |190319 10:41:08|Updating multipart status to 1
+INFO    |190319 10:41:08|AEArchiverJpa :: Spanned JPA creation enabled
+DEBUG   |190319 10:41:08|AEArchiverJpa :: Killing old archive
+DEBUG   |190319 10:41:08|----- Finished operation 2 ------
+DEBUG   |190319 10:41:08|----- Finished operation 3 ------
+DEBUG   |190319 10:41:08|Successful Smart algorithm on AECoreDomainInit
+DEBUG   |190319 10:41:08|Kettenrad :: Domain 'init' has finished.
+DEBUG   |190319 10:41:08|====== Finished Step number 1 ======
+DEBUG   |190319 10:41:08|*** Engine steps batching: Break flag detected.
+DEBUG   |190319 10:41:08|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |190319 10:41:08|Sleeping for 1786.0009670258 msec, using usleep()
+DEBUG   |190319 10:41:10|Saving Kettenrad instance backend
+DEBUG   |190319 10:41:10|
+DEBUG   |190319 10:41:10| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |190319 10:41:10|====== Starting Step number 1 ======
+DEBUG   |190319 10:41:10|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |190319 10:41:10|AECoreDomainInstaller :: New instance
+DEBUG   |190319 10:41:10|-- Adding installation/README.html to archive (virtual data)
+DEBUG   |190319 10:41:10|-- Adding installation/extrainfo.ini to archive (virtual data)
+DEBUG   |190319 10:41:10|----- Finished operation 1 ------
+DEBUG   |190319 10:41:10|Initializing with JPA package 
+DEBUG   |190319 10:41:10|  Adding installation/css/img/btn_next.png; Next offset:1897
+DEBUG   |190319 10:41:10|-- Adding installation/css/img/btn_next.png to archive (virtual data)
+DEBUG   |190319 10:41:10|----- Finished operation 2 ------
+DEBUG   |190319 10:41:10|  Adding installation/css/img/btn_prev.png; Next offset:3781
+DEBUG   |190319 10:41:10|-- Adding installation/css/img/btn_prev.png to archive (virtual data)
+DEBUG   |190319 10:41:10|----- Finished operation 3 ------
+DEBUG   |190319 10:41:10|  Adding installation/css/img/busy.gif; Next offset:5207
+DEBUG   |190319 10:41:10|-- Adding installation/css/img/busy.gif to archive (virtual data)
+DEBUG   |190319 10:41:10|----- Finished operation 4 ------
+DEBUG   |190319 10:41:10|  Adding installation/css/img/header_bg.png; Next offset:6798
+DEBUG   |190319 10:41:10|-- Adding installation/css/img/header_bg.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 5 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/img/logo.png; Next offset:7854
+DEBUG   |190319 10:41:11|-- Adding installation/css/img/logo.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 6 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/install.css; Next offset:9173
+DEBUG   |190319 10:41:11|-- Adding installation/css/install.css to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 7 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png; Next offset:9358
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 8 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-bg_flat_55_fbec88_40x100.png; Next offset:9546
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-bg_flat_55_fbec88_40x100.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 9 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png; Next offset:9753
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 10 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-bg_glass_85_dfeffc_1x400.png; Next offset:9959
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-bg_glass_85_dfeffc_1x400.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 11 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-bg_glass_95_fef1ec_1x400.png; Next offset:10161
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-bg_glass_95_fef1ec_1x400.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 12 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png; Next offset:13530
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 13 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png; Next offset:13721
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 14 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png; Next offset:13896
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 15 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-icons_217bc0_256x240.png; Next offset:18142
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-icons_217bc0_256x240.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 16 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-icons_2e83ff_256x240.png; Next offset:22388
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-icons_2e83ff_256x240.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 17 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-icons_469bdd_256x240.png; Next offset:27677
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-icons_469bdd_256x240.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 18 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-icons_6da8d5_256x240.png; Next offset:31922
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-icons_6da8d5_256x240.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 19 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-icons_cd0a0a_256x240.png; Next offset:36168
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-icons_cd0a0a_256x240.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 20 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-icons_d8e7f3_256x240.png; Next offset:40414
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-icons_d8e7f3_256x240.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 21 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/images/ui-icons_f9bd01_256x240.png; Next offset:44659
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/images/ui-icons_f9bd01_256x240.png to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 22 ------
+DEBUG   |190319 10:41:11|  Adding installation/css/redmond/jquery-ui-redmond.css; Next offset:49831
+DEBUG   |190319 10:41:11|-- Adding installation/css/redmond/jquery-ui-redmond.css to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 23 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/antidos.php; Next offset:51010
+DEBUG   |190319 10:41:11|-- Adding installation/includes/antidos.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 24 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/automation.php; Next offset:51986
+DEBUG   |190319 10:41:11|-- Adding installation/includes/automation.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 25 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/configuration.php; Next offset:54599
+DEBUG   |190319 10:41:11|-- Adding installation/includes/configuration.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 26 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/db.php; Next offset:58252
+DEBUG   |190319 10:41:11|-- Adding installation/includes/db.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 27 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/ftp.php; Next offset:61949
+DEBUG   |190319 10:41:11|-- Adding installation/includes/ftp.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 28 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/logic/ajax.php; Next offset:63735
+DEBUG   |190319 10:41:11|-- Adding installation/includes/logic/ajax.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 29 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/logic/dbsetup.php; Next offset:66516
+DEBUG   |190319 10:41:11|-- Adding installation/includes/logic/dbsetup.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 30 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/logic/finish.php; Next offset:68754
+DEBUG   |190319 10:41:11|-- Adding installation/includes/logic/finish.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 31 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/logic/index.php; Next offset:70842
+DEBUG   |190319 10:41:11|-- Adding installation/includes/logic/index.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 32 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/logic/restore.php; Next offset:77010
+DEBUG   |190319 10:41:11|-- Adding installation/includes/logic/restore.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 33 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/logic/setup.php; Next offset:79115
+DEBUG   |190319 10:41:11|-- Adding installation/includes/logic/setup.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 34 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/output/dbsetup.php; Next offset:80959
+DEBUG   |190319 10:41:11|-- Adding installation/includes/output/dbsetup.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 35 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/output/finish.php; Next offset:81954
+DEBUG   |190319 10:41:11|-- Adding installation/includes/output/finish.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 36 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/output/index.php; Next offset:83207
+DEBUG   |190319 10:41:11|-- Adding installation/includes/output/index.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 37 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/output/setup.php; Next offset:85343
+DEBUG   |190319 10:41:11|-- Adding installation/includes/output/setup.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 38 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/output.php; Next offset:87557
+DEBUG   |190319 10:41:11|-- Adding installation/includes/output.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 39 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/storage.php; Next offset:89286
+DEBUG   |190319 10:41:11|-- Adding installation/includes/storage.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 40 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/translate.php; Next offset:90901
+DEBUG   |190319 10:41:11|-- Adding installation/includes/translate.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 41 ------
+DEBUG   |190319 10:41:11|  Adding installation/includes/utils.php; Next offset:92748
+DEBUG   |190319 10:41:11|-- Adding installation/includes/utils.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 42 ------
+DEBUG   |190319 10:41:11|  Adding installation/index.php; Next offset:94096
+DEBUG   |190319 10:41:11|-- Adding installation/index.php to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 43 ------
+DEBUG   |190319 10:41:11|  Adding installation/js/cookie.js; Next offset:94949
+DEBUG   |190319 10:41:11|-- Adding installation/js/cookie.js to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 44 ------
+DEBUG   |190319 10:41:11|  Adding installation/js/install.js; Next offset:100320
+DEBUG   |190319 10:41:11|-- Adding installation/js/install.js to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 45 ------
+DEBUG   |190319 10:41:11|  Adding installation/js/jquery-ui.min.js; Next offset:152495
+DEBUG   |190319 10:41:11|-- Adding installation/js/jquery-ui.min.js to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 46 ------
+DEBUG   |190319 10:41:11|  Adding installation/js/jquery.blockUI.js; Next offset:157701
+DEBUG   |190319 10:41:11|-- Adding installation/js/jquery.blockUI.js to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 47 ------
+DEBUG   |190319 10:41:11|  Adding installation/js/jquery.min.js; Next offset:190910
+DEBUG   |190319 10:41:11|-- Adding installation/js/jquery.min.js to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 48 ------
+DEBUG   |190319 10:41:11|  Adding installation/lang/bg-BG.ini; Next offset:195099
+DEBUG   |190319 10:41:11|-- Adding installation/lang/bg-BG.ini to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 49 ------
+DEBUG   |190319 10:41:11|  Adding installation/lang/cs-CZ.ini; Next offset:199685
+DEBUG   |190319 10:41:11|-- Adding installation/lang/cs-CZ.ini to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 50 ------
+DEBUG   |190319 10:41:11|  Adding installation/lang/da-DK.ini; Next offset:203969
+DEBUG   |190319 10:41:11|-- Adding installation/lang/da-DK.ini to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 51 ------
+DEBUG   |190319 10:41:11|  Adding installation/lang/de-DE.ini; Next offset:208513
+DEBUG   |190319 10:41:11|-- Adding installation/lang/de-DE.ini to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 52 ------
+DEBUG   |190319 10:41:11|  Adding installation/lang/el-GR.ini; Next offset:214221
+DEBUG   |190319 10:41:11|-- Adding installation/lang/el-GR.ini to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 53 ------
+DEBUG   |190319 10:41:11|  Adding installation/lang/en-GB.ini; Next offset:218393
+DEBUG   |190319 10:41:11|-- Adding installation/lang/en-GB.ini to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 54 ------
+DEBUG   |190319 10:41:11|  Adding installation/lang/es-ES.ini; Next offset:222900
+DEBUG   |190319 10:41:11|-- Adding installation/lang/es-ES.ini to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 55 ------
+DEBUG   |190319 10:41:11|  Adding installation/lang/et-EE.ini; Next offset:227452
+DEBUG   |190319 10:41:11|-- Adding installation/lang/et-EE.ini to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 56 ------
+DEBUG   |190319 10:41:11|  Adding installation/lang/fa-IR.ini; Next offset:231641
+DEBUG   |190319 10:41:11|-- Adding installation/lang/fa-IR.ini to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 57 ------
+DEBUG   |190319 10:41:11|  Adding installation/lang/fr-FR.ini; Next offset:236320
+DEBUG   |190319 10:41:11|-- Adding installation/lang/fr-FR.ini to archive (virtual data)
+DEBUG   |190319 10:41:11|----- Finished operation 58 ------
+DEBUG   |190319 10:41:11|  Adding installation/lang/hu-HU.ini; Next offset:241048
+DEBUG   |190319 10:41:11|-- Adding installation/lang/hu-HU.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 59 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/it-IT.ini; Next offset:245487
+DEBUG   |190319 10:41:12|-- Adding installation/lang/it-IT.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 60 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/ja-JP.ini; Next offset:250213
+DEBUG   |190319 10:41:12|-- Adding installation/lang/ja-JP.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 61 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/ku_IQ.ini; Next offset:254402
+DEBUG   |190319 10:41:12|-- Adding installation/lang/ku_IQ.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 62 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/lt-LT.ini; Next offset:259076
+DEBUG   |190319 10:41:12|-- Adding installation/lang/lt-LT.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 63 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/mk-MK.ini; Next offset:263265
+DEBUG   |190319 10:41:12|-- Adding installation/lang/mk-MK.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 64 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/nb-NO.ini; Next offset:267463
+DEBUG   |190319 10:41:12|-- Adding installation/lang/nb-NO.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 65 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/nl-NL.ini; Next offset:272000
+DEBUG   |190319 10:41:12|-- Adding installation/lang/nl-NL.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 66 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/pl-PL.ini; Next offset:276650
+DEBUG   |190319 10:41:12|-- Adding installation/lang/pl-PL.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 67 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/pt-BR.ini; Next offset:280839
+DEBUG   |190319 10:41:12|-- Adding installation/lang/pt-BR.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 68 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/pt-PT.ini; Next offset:285425
+DEBUG   |190319 10:41:12|-- Adding installation/lang/pt-PT.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 69 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/ro-RO.ini; Next offset:289596
+DEBUG   |190319 10:41:12|-- Adding installation/lang/ro-RO.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 70 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/ru-RU.ini; Next offset:293785
+DEBUG   |190319 10:41:12|-- Adding installation/lang/ru-RU.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 71 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/sr@latin.ini; Next offset:297977
+DEBUG   |190319 10:41:12|-- Adding installation/lang/sr@latin.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 72 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/sv-SE.ini; Next offset:302317
+DEBUG   |190319 10:41:12|-- Adding installation/lang/sv-SE.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 73 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/th-TH.ini; Next offset:307144
+DEBUG   |190319 10:41:12|-- Adding installation/lang/th-TH.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 74 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/tr-TR.ini; Next offset:311501
+DEBUG   |190319 10:41:12|-- Adding installation/lang/tr-TR.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 75 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/uk-UA.ini; Next offset:316870
+DEBUG   |190319 10:41:12|-- Adding installation/lang/uk-UA.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 76 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/zh-CN.ini; Next offset:321596
+DEBUG   |190319 10:41:12|-- Adding installation/lang/zh-CN.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 77 ------
+DEBUG   |190319 10:41:12|  Adding installation/lang/zh-TW.ini; Next offset:325785
+DEBUG   |190319 10:41:12|-- Adding installation/lang/zh-TW.ini to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 78 ------
+DEBUG   |190319 10:41:12|  Adding installation/version.php; Next offset:325973
+DEBUG   |190319 10:41:12|-- Adding installation/version.php to archive (virtual data)
+DEBUG   |190319 10:41:12|----- Finished operation 79 ------
+DEBUG   |190319 10:41:12|  Skipping installation/sql/
+DEBUG   |190319 10:41:12|----- Finished operation 80 ------
+DEBUG   |190319 10:41:12|Done
+DEBUG   |190319 10:41:12|Initializing with JPA package has finished
+DEBUG   |190319 10:41:12|AECoreDomainInstaller:: archive is initialized
+DEBUG   |190319 10:41:12|----- Finished operation 81 ------
+DEBUG   |190319 10:41:12|Successful Smart algorithm on AECoreDomainInstaller
+DEBUG   |190319 10:41:12|Kettenrad :: Domain 'installer' has finished.
+DEBUG   |190319 10:41:12|====== Finished Step number 1 ======
+DEBUG   |190319 10:41:12|*** Engine steps batching: Break flag detected.
+DEBUG   |190319 10:41:12|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |190319 10:41:12|Sleeping for 390.95020294189 msec, using usleep()
+DEBUG   |190319 10:41:12|Saving Kettenrad instance backend
+DEBUG   |190319 10:41:13| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |190319 10:41:13|====== Starting Step number 2 ======
+DEBUG   |190319 10:41:13|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |190319 10:41:13|AECoreDomainDb :: New instance
+DEBUG   |190319 10:41:13|AECoreDomainDb :: Preparing instance
+DEBUG   |190319 10:41:13|Fetching filter data from database
+DEBUG   |190319 10:41:13|Loading filters
+DEBUG   |190319 10:41:13|-- Loading filter Directories
+DEBUG   |190319 10:41:13|-- Loading filter Files
+DEBUG   |190319 10:41:13|-- Loading filter Incremental
+DEBUG   |190319 10:41:13|-- Loading filter Skipdirs
+DEBUG   |190319 10:41:13|-- Loading filter Skipfiles
+DEBUG   |190319 10:41:13|-- Loading filter Srpdata
+DEBUG   |190319 10:41:13|-- Loading filter Srpdirs
+DEBUG   |190319 10:41:13|-- Loading filter Srpfiles
+DEBUG   |190319 10:41:13|-- Loading filter Srpskipdata
+DEBUG   |190319 10:41:13|-- Loading filter Srpskipfiles
+DEBUG   |190319 10:41:13|-- Loading filter Tabledata
+DEBUG   |190319 10:41:13|-- Loading filter Tables
+DEBUG   |190319 10:41:13|-- Loading filter PlatformFiles
+DEBUG   |190319 10:41:13|-- Loading filter PlatformFolders
+DEBUG   |190319 10:41:13|-- Loading filter PlatformLibraries
+DEBUG   |190319 10:41:13|-- Loading filter PlatformSitedb
+DEBUG   |190319 10:41:13|-- Loading filter PlatformSiteroot
+DEBUG   |190319 10:41:13|-- Loading filter PlatformSkipdirs
+DEBUG   |190319 10:41:13|-- Loading filter PlatformSkipfiles
+DEBUG   |190319 10:41:13|-- Loading filter PlatformSystemcachefiles
+DEBUG   |190319 10:41:13|-- Loading filter PlatformTabledata
+DEBUG   |190319 10:41:13|Loading optional filters
+DEBUG   |190319 10:41:13|-- Loading optional filter StackPlatformFinder
+DEBUG   |190319 10:41:13|----- Finished operation 1 ------
+DEBUG   |190319 10:41:13|AECoreDomainDb :: Iterating next database
+DEBUG   |190319 10:41:13|AEDumpNative :: New instance
+DEBUG   |190319 10:41:13|AEDumpNative :: Processing parameters
+DEBUG   |190319 10:41:13|AEDumpNative :: Instanciating new native database dump engine AEDumpNativeMysql
+DEBUG   |190319 10:41:14|AEDumpNativeMysql :: New instance
+DEBUG   |190319 10:41:14|AEAbstractDump :: Processing parameters
+DEBUG   |190319 10:41:14|AEDumpNativeMysql :: Finding tables to include in the backup set
+DEBUG   |190319 10:41:14|----- Finished operation 2 ------
+ERROR   |190319 10:41:14|Failed Smart algorithm on AECoreDomainDb
+DEBUG   |190319 10:41:14|Kettenrad :: More work required in domain 'PackDB'
+DEBUG   |190319 10:41:14|====== Finished Step number 2 ======
+DEBUG   |190319 10:41:14|*** Engine steps batching: Break flag detected.
+DEBUG   |190319 10:41:14|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |190319 10:41:14|Sleeping for 1290.9760475159 msec, using usleep()
+DEBUG   |190319 10:41:15|Saving Kettenrad instance backend
+DEBUG   |190319 10:41:15|Closing SQL dump file.

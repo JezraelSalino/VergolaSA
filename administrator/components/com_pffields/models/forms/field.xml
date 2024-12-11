@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details" addfieldpath="/administrator/components/com_pffields/models/fields">
+		<field name="id" type="text" default="0" readonly="true" class="readonly" label="JGLOBAL_FIELD_ID_LABEL" description ="JGLOBAL_FIELD_ID_DESC" />
+		<field name="name" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_NAME_LABEL"	description="COM_PFFIELDS_FIELD_NAME_DESC" />
+		<field name="extension"	type="hidden"/>
+		<field name="title" type="text" class="inputbox" size="40" label="COM_PFFIELDS_FIELD_TITLE_LABEL" description="COM_PFFIELDS_FIELD_TITLE_DESC" required="true" />
+		<field name="type" type="fieldtypelist" label="COM_PFFIELDS_FIELD_TYPE_LABEL" description="COM_PFFIELDS_FIELD_TYPE_DESC"
+			class="inputbox" size="1" default="1" onchange="changefieldtype()">
+				<option value="checkbox" >COM_PFFIELDS_CHECKBOX</option>
+				<option value="checkboxes" >COM_PFFIELDS_CHECKBOXES</option>
+				<option value="calendar" >COM_PFFIELDS_CALENDAR</option>
+				<option value="list" >COM_PFFIELDS_LIST</option>
+				<option value="editor" >COM_PFFIELDS_EDITOR</option>
+				<option value="file" >COM_PFFIELDS_FILE</option>
+				<option value="avatar" >COM_PFFIELDS_AVATAR</option>
+				<option value="radio" >COM_PFFIELDS_RADIO</option>
+				<option value="text" >COM_PFFIELDS_TEXT</option>
+				<option value="textarea" >COM_PFFIELDS_TEXTAREA</option>
+				<option value="sql" >COM_PFFIELDS_SQL</option>
+		</field>
+		<field name="catid" type="sql" label="JCATEGORY" description="COM_PFFIELDS_FIELD_CATEGORY_DESC" query="" />
+		<field name="ordering" type="Orderingfield" class="inputbox"	label="JFIELD_ORDERING_LABEL" description="JFIELD_ORDERING_DESC" />
+		<field name="description" type="textarea" class="inputbox" rows="3" cols="30" label="JGLOBAL_DESCRIPTION" description="COM_PFFIELDS_FIELD_DESCRIPTION_DESC" />
+		<field name="rights" type="rights" label="JFIELD_RIGHTS_LABEL"
+			class="inputbox" filter="rules"
+			component="com_pffields" section="field" validate="rules"
+		/>
+		
+	</fieldset>
+
+	
+	
+		<fieldset name="valueoptions" label="COM_PFFIELDS_GROUP_LABEL_PUBLISHING_DETAILS">
+			
+			<field name="value" type="valuelist" class="inputbox" label="COM_PFFIELDS_FIELD_VALUE_LABEL"	description="COM_PFFIELDS_FIELD_VALUE_DESC" />
+			<field name="valuesimple" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_VALUE_LABEL"	description="COM_PFFIELDS_FIELD_VALUE_DESC" />
+			<field name="multiple" type="radio"	default="0"	label="COM_PFFIELDS_FIELD_MULTIPLE_LABEL" description="COM_PFFIELDS_FIELD_MULTIPLE_DESC">				
+				<option	value="0">JNO</option>
+				<option	value="1">JYES</option>
+			</field>
+			<field name="format" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_FORMAT_LABEL"	description="COM_PFFIELDS_FIELD_FORMAT_DESC" />
+			<field name="inputformat" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_INPUTFORMAT_LABEL"	description="COM_PFFIELDS_FIELD_INPUTFORMAT_DESC" />
+			<field name="default" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_DEFAULT_LABEL"	description="COM_PFFIELDS_FIELD_DEFAULT_DESC" />
+			<field name="query" type="textarea" class="inputbox" rows="3" cols="30" label="COM_PFFIELDS_FIELD_QUERY_LABEL"	description="COM_PFFIELDS_FIELD_QUERY_DESC" />
+		</fieldset>
+		<fieldset name="viewoptions" label="COM_PFFIELDS_GROUP_LABEL_PUBLISHING_DETAILS">
+			<field name="size" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_SIZE_LABEL"	description="COM_PFFIELDS_FIELD_SIZE_DESC" />
+			<field name="cols" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_COLS_LABEL"	description="COM_PFFIELDS_FIELD_COLS_DESC" />
+			<field name="rows" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_ROWS_LABEL"	description="COM_PFFIELDS_FIELD_ROWS_DESC" />
+		</fieldset>
+		<fieldset name="checkoptions" label="COM_PFFIELDS_GROUP_LABEL_PUBLISHING_DETAILS">
+			<field name="accept" type="textarea" class="inputbox" rows="3" cols="30" label="COM_PFFIELDS_FIELD_ACCEPT_LABEL"	description="COM_PFFIELDS_FIELD_ACCEPT_DESC" />
+			<field name="mimeenable" type="textarea" class="inputbox" rows="3" cols="30" label="COM_PFFIELDS_FIELD_MIMEENABLE_LABEL"	description="COM_PFFIELDS_FIELD_MIMEENABLE_DESC" />
+			<field name="extensionsenable" type="textarea" class="inputbox" rows="3" cols="30" label="COM_PFFIELDS_FIELD_EXTENSIONSENABLE_LABEL"	description="COM_PFFIELDS_FIELD_EXTENSIONSENABLE_DESC" />
+			<field name="maxlength" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_MAXLENGTH_LABEL"	description="COM_PFFIELDS_FIELD_MAXLENGTH_DESC" />
+			<field name="minlength" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_MINLENGTH_LABEL"	description="COM_PFFIELDS_FIELD_MINLENGTH_DESC" />
+			<field name="regex" type="textarea" class="inputbox" rows="3" cols="30" label="COM_PFFIELDS_FIELD_REGEX_LABEL"	description="COM_PFFIELDS_FIELD_REGEX_DESC" />
+			<field name="error" type="textarea" class="inputbox" rows="3" cols="30" label="COM_PFFIELDS_FIELD_ERROR_LABEL"	description="COM_PFFIELDS_FIELD_ERROR_DESC" />	
+			<field name="forbidden" type="textarea" class="inputbox" rows="3" cols="30" label="COM_PFFIELDS_FIELD_FORBIDDEN_LABEL"	description="COM_PFFIELDS_FIELD_FORBIDDEN_DESC" />
+		</fieldset>
+		<fieldset name="dboptions" label="COM_PFFIELDS_GROUP_LABEL_DATABASE_DETAILS">
+			<field name="dbcreate" type="list" label="COM_PFFIELDS_FIELD_DBCREATE_LABEL" description="COM_PFFIELDS_FIELD_DBCREATE_DESC"
+			class="inputbox" size="1" default="auto" onchange="changedatabase()">
+				<option value="auto">COM_PFFIELDS_DBAUTO</option>
+				<option value="manual">COM_PFFIELDS_DBMANUAL</option>
+			</field>
+			<field name="dbtype" type="groupedlist" label="COM_PFFIELDS_FIELD_DBTYPE_LABEL" description="COM_PFFIELDS_FIELD_DBTYPE_DESC"
+			class="inputbox" size="1" default="VARCHAR">
+				<option value="INT">INT</option>
+				<option value="VARCHAR">VARCHAR</option>
+				<option value="TEXT">TEXT</option>
+				<option value="DATE">DATE</option>
+				<group label="NUMERIC">
+				<option value="TINYINT">TINYINT</option>
+				<option value="SMALLINT">SMALLINT</option>
+				<option value="MEDIUMINT">MEDIUMINT</option>
+				<option value="INT">INT</option>
+				<option value="BIGINT">BIGINT</option>
+				<option value="DECIMAL">DECIMAL</option>
+				<option value="FLOAT">FLOAT</option>
+				<option value="DOUBLE">DOUBLE</option>
+				<option value="REAL">REAL</option>
+				<option value="BIT">BIT</option>
+				<option value="BOOLEAN">BOOLEAN</option>
+				<option value="SERIAL">SERIAL</option>
+				</group>
+				<group label="DATE and TIME">
+				<option value="DATE">DATE</option>
+				<option value="DATETIME">DATETIME</option>
+				<option value="TIMESTAMP">TIMESTAMP</option>
+				<option value="TIME">TIME</option>
+				<option value="YEAR">YEAR</option>
+				</group>
+				<group label="STRING">
+				<option value="CHAR">CHAR</option>
+				<option value="VARCHAR">VARCHAR</option>
+				<option value="TINYTEXT">TINYTEXT</option>
+				<option value="TEXT">TEXT</option>
+				<option value="MEDIUMTEXT">MEDIUMTEXT</option>
+				<option value="LONGTEXT">LONGTEXT</option>
+				<option value="BINARY">BINARY</option>
+				<option value="VARBINARY">VARBINARY</option>
+				<option value="TINYBLOB">TINYBLOB</option>
+				<option value="MEDIUMBLOB">MEDIUMBLOB</option>
+				<option value="BLOB">BLOB</option>
+				<option value="LONGBLOB">LONGBLOB</option>
+				<option value="ENUM">ENUM</option>
+				<option value="SET">SET</option>
+				</group>
+			</field>
+			<field name="dblength" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_DBLENGTH_LABEL"	description="COM_PFFIELDS_FIELD_DBLENGTH_DESC" />
+			<field name="dbdefaultvalue" type="list" label="COM_PFFIELDS_FIELD_DBDEFAULTVALUE_LABEL" description="COM_PFFIELDS_FIELD_DBDEFAULTVALUE_DESC" class="inputbox" size="1" default="1">
+				<option value="NONE">NONE</option>
+				<option value="USER_DEFINED">User defined:</option>
+				<option value="NULL">NULL</option>
+				<option value="CURRENT_TIMESTAMP">CURRENT_TIMESTAMP</option>
+			</field>
+			<field name="dbdefaultvaluedefined" type="text" class="inputbox"	size="40" label="COM_PFFIELDS_FIELD_DBDEFAULTVALUEDEFINED_LABEL"	description="COM_PFFIELDS_FIELD_DBDEFAULTVALUEDEFINED_DESC" />
+		</fieldset>
+	
+
+</form>

@@ -1,0 +1,120 @@
+.ui-datepicker {
+    position: absolute;
+    font-size: 10px;
+    font-family: "Lucida Grande", LucidaGrande, "Lucida Sans", Geneva, Verdana, sans-serif;
+    color: #fff;
+    line-height: normal;
+    width: 172px;
+    height: 135px;
+    padding: 14px;
+    background: url(frame_1.png) no-repeat;
+    z-index: 9999;
+}
+
+.ui-datepicker-title {
+    text-align: center;
+    margin: 2px 18px 0 18px;
+}
+
+
+.ui-datepicker-prev {
+    position: absolute;
+    cursor: pointer;
+    text-indent: -40px;
+    overflow: hidden;
+    width: 12px;
+    height: 12px;
+    top: 15px;
+    left: 15px;
+    background-image: url(buttons_1.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+
+}
+.ui-datepicker-next {
+    position: absolute;
+    cursor: pointer;
+    text-indent: -40px;
+    overflow: hidden;
+    width: 12px;
+    height: 12px;
+    top: 15px;
+    left: 175px;
+    background-image: url(buttons_1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+
+}
+.ui-datepicker-prev-hover {
+    background-position: left bottom;
+}
+.ui-datepicker-next-hover {
+    background-position: left bottom;
+}
+
+
+.ui-datepicker-year {
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 0px;
+    width: 32px;
+    overflow: hidden;
+    height: 21px;
+    margin: 0 1px 1px 0;
+}
+.ui-datepicker-year:hover {
+    color: #ccff00;
+}
+
+.ui-datepicker-year .selected {
+    color: #ccff00
+}
+
+
+.ui-datepicker-month {
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 0px;
+    width: 55px;
+    overflow: hidden;
+    height: 21px;
+    margin: 0 1px 1px 0;
+}
+.ui-datepicker-week-col {
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    width: 23px;
+    padding-top: 1px;
+    height: 14px;
+    margin: 0 1px 1px 0;
+}
+/*
+.ui-datepicker-days-cell-over {
+    height: 15px;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    color: #aaa;
+}
+*/
+a.ui-state-default {
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    width: 23px;
+    padding-top: 1px;
+    height: 14px;
+    margin: 0 1px 1px 0;
+    border: 0px;
+}
+a.ui-state-highlight {
+    color: #ccff00;
+}
+a.ui-state-active {
+    color: #ccff00;
+}
+a.ui-state-hover {
+    color: #ccff00;
+}

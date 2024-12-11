@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details" addfieldpath="/administrator/components/com_pffields/models/fields">
+		<field name="id" type="text" default="0" readonly="true" class="readonly" label="JGLOBAL_FIELD_ID_LABEL" description ="JGLOBAL_FIELD_ID_DESC" />
+		<field name="title" type="text" class="inputbox" size="40" label="COM_PFFIELDS_CATEGORY_TITLE_LABEL" description="COM_PFFIELDS_CATEGORY_TITLE_DESC" required="true" />
+		<field name="type" type="text" readonly="true" class="readonly" size="40" label="" description="" />
+		<field name="alias" type="text" class="inputbox" size="40" label="COM_PFFIELDS_CATEGORY_ALIAS_LABEL" description="COM_PFFIELDS_CATEGORY_ALIAS_DESC" required="true" />
+		<field name="extension"	type="hidden"/>
+		<field name="ordering" type="Orderingcat" class="inputbox"	label="JFIELD_ORDERING_LABEL" description="JFIELD_ORDERING_DESC" />
+		<field name="description" type="textarea" class="inputbox" rows="3" cols="30" label="JGLOBAL_DESCRIPTION" description="COM_PFFIELDS_CATEGORY_DESCRIPTION_DESC" />
+		<field name="template" type="text" class="inputbox" size="40" label="COM_PFFIELDS_CATEGORY_TEMPLATE_LABEL" description="COM_PFFIELDS_CATEGORY_TEMPLATE_DESC" />
+		<field name="rights" type="rightscat" label="JFIELD_RIGHTS_LABEL"
+			class="inputbox" filter="rules"
+			component="com_pffields" section="field" validate="rules"
+		/>
+	</fieldset>
+</form>

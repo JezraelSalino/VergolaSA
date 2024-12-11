@@ -1,0 +1,231 @@
+@charset "utf-8";
+/*** New Contract Folder Stylesheet ***/
+#tabs_content_container #contractdetails,#tabs_content_container #purchaseorder {
+    height: 265px;
+    overflow: auto;
+
+}
+
+#tabs_content_container #quotedetails, #tabs_content_container #billofmaterials {height:0px; }
+
+.quote-tab .spanproject {width:150px; float:right;margin-top:0px;}
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.quote-tab .spanproject {margin-top:-5px;}
+}
+.quote-tab .spanproject label {line-height:5px;}
+.quote-tab #contractdetails h1, .quote-tab #quotedetails h1, .quote-tab #billofmaterials h1, .quote-tab #purchaseorder h1 {background-color: #EEEEEE;
+    border-top: 1px solid #ddd;
+    color: #4D4D4D;
+    font-size: 14px;
+    margin: 0px 0px 5px;
+    padding: 5px;}
+	
+.quote-tab #contractdetails span {width:31%; display:inline-block; vertical-align:top;margin:3px 10px 6px 0px;}
+.quote-tab #contractdetails span label {width:130px;display:inline-block; font-weight:bold;font-size:12px; letter-spacing:-0.2pt;}
+.quote-tab #contractdetails span input, .info-tab #standard span input {width:90px;-moz-font-feature-settings: inherit;
+    -moz-font-language-override: inherit;
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #97989a;
+    font-family: inherit;
+    font-size: 12px;
+    font-size-adjust: inherit;
+    font-stretch: inherit;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0px;
+	padding: 0px 3px;
+    position: relative; height:20px;}
+.quote-tab #contractdetails span p {display:inline-block; padding:0px;margin:0px;line-height:0.8em}
+
+/*** Vergola Standard ****/
+
+#standard span.legend {width:400px; display:inline-block; position:table-row;margin:2px 0px 3px;}
+#standard span.legend label {width:105px; position:relative; display:inline-block;}
+
+/*#standard #checkmeasurer {width:286px;}*/
+/*#standard #erectors {width:286px;}*/
+/*#standard #accommodation {width:286px;}*/
+.info-tab #standard label.input span {font-size:12px;}
+.info-tab #standard label.checkmeasure input.date_entered {
+    /*width:90px; padding:4px 3px 3px 95px;*/ 
+
+}
+/*
+.info-tab #standard label.input {margin:2px 0px 3px;}
+.info-tab #standard label.input input {display:inline-block; }*/
+
+div.label-input-row label{
+    margin-right:15px;
+}
+div.label-input-row label input{
+    /*width:90px; padding:4px 3px 3px 95px;*/
+    padding: 4px 3px 3px 62%;
+    width: 42%; 
+}
+
+/*
+.info-tab #standard label.recheckmeasure input.date_entered {width:83px; padding:4px 3px 3px 115px;}
+.info-tab #standard label.drawingdate input.date_entered {width:auto; padding:4px 3px 3px 112px;}
+.info-tab #standard label.drawingapprovedate input.date_entered {width:90px; padding:4px 3px 3px 104px;}
+.info-tab #standard label.productionstart input.date_entered {width:90px; padding:4px 3px 3px 95px;}
+.info-tab #standard label.productioncomplete input.date_entered {width:75px; padding:4px 3px 3px 123px;}
+.info-tab #standard label.clientnotified input.date_entered {width:100px; padding:4px 3px 3px 85px;}
+.info-tab #standard label.erectornotified input.date_entered {width:105px; padding:4px 3px 3px 93px;}
+.info-tab #standard label.warrantystart input.date_entered {width:100px; padding:4px 3px 3px 85px;}
+.info-tab #standard label.warrantyend input.date_entered {width:115px; padding:4px 3px 3px 83px;}
+.info-tab #standard label.jobstart input.date_entered {width:125px; padding:4px 3px 3px 60px;}
+.info-tab #standard label.jobend input.date_entered {width:143px; padding:4px 3px 3px 55px;}*/
+
+#standard span.travel, #standard span.extra {width:198px;}
+
+#standard span.travel label {width:78px;}
+#standard span.extra label {width:87px;}
+#standard span.travel input {width:105px;}
+#standard span.extra input {width:102px;}
+
+/*** Statutory Approval ***/
+.info-tab #statutory label.input span {font-size: 12px;}
+
+.info-tab #statutory div.label-input-row label input {width: 395%; padding:4px 3px 3px 4px;}
+.info-tab #statutory div.label-input-row table label {width:20%; }
+.info-tab #statutory div.label-input-row table label.input select {width:150px; margin-left: 10px;}
+.info-tab #statutory div.label-input-row table.table-statutory th {border-collapse: collapse; border: 1px solid #fff;}
+.info-tab #statutory div.label-input-row table.table-statutory td {border-collapse: collapse; border: 1px solid #fff;}
+
+/*.info-tab #statutory select#council {width:395px;margin:0px 3px 5px;}
+.info-tab #statutory label.planningdate input.date_entered {width:75px; padding:4px 3px 3px 120px;}
+.info-tab #statutory label.planningapprove input.date_entered {width:75px; padding:4px 3px 3px 112px;}
+.info-tab #statutory label.warrantyinsurance input.date_entered {width:79px; padding:4px 3px 3px 116px;}
+.info-tab #statutory label.cerfifier input.date_entered {width:132px; padding:4px 3px 3px 55px;}
+.info-tab #statutory label.development input.date_entered {width:258px; padding:4px 3px 3px 132px;}*/
+
+/*** Quote Details ***/
+#tabs_content_container #quotedetails table#tbl-quoted, #tabs_content_container #billofmaterials table#tbl-quoted {
+    width: 100%;
+}
+
+#tabs_content_container #quotedetails table#tbl-quoted th, #tabs_content_container #quotedetails table#tbl-quoted td, #tabs_content_container #billofmaterials table#tbl-quoted th, #tabs_content_container #billofmaterials table#tbl-quoted td {
+    border: 1px solid #ccc;
+    padding: 5px 3px;
+}
+
+#tabs_content_container #quotedetails input[type="button"], #tabs_content_container #billofmaterials input[type="button"] {
+    background-color: #4285f4;
+    border: 1px solid #026695;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 2px;
+    width: 120px;
+}
+
+body[class^='view-contractquote'] {}
+
+/*** Quote BOM ***/
+
+.listing-table input[type="text"] {
+    background-color: #3c3c3c;
+    border: 1px solid #026695;
+    color: #fff;
+    margin: 5px 1px;
+    padding: 3px;
+    width: 95%;
+}
+
+body[class^='contract-listing'] #lightbox {width:auto!important; height:auto!important;padding:20px;}
+body[class^='contract-listing'] #lightbox #header {display:none;}
+body[class^='contract-listing'] #lightbox h1 {position: relative;
+	width:auto;margin-bottom:10px; z-index:100; font-size:15px;}
+body[class^='contract-listing'] #lightbox h1 input.btn-process {background-color: #4285f4;
+    border: 1px solid #026695;
+    color: #fff;
+    cursor: pointer;
+    margin: -5px 15px 0px;
+    padding: 3px 2px;
+    width: 110px; position:relative;}
+	
+body[class^='contract-listing'] #lightbox h1 img {float:right;margin:-20px -10px 0px; cursor:pointer;}
+
+/*** Quote PO ***/
+
+#tabs_content_container #purchaseorder h1 {
+	width:788px;margin-bottom:0px; z-index:100;}
+	#tabs_content_container #purchaseorder h1 input[type=submit]{background-color: #4285f4;
+    border: 1px solid #026695;
+    color: #fff;
+    cursor: pointer;
+    margin: -2px 15px 0px;
+    padding: 0px 2px 2px;
+    width: 150px;}
+#tabs_content_container #purchaseorder h1 input.btn-process {background-color: #4285f4;
+    border: 1px solid #026695;
+    color: #fff;
+    cursor: pointer;
+    margin: -2px 15px 0px;
+    padding: 0px 2px 2px;
+    width: 110px; position:absolute;}
+	#tabs_content_container #purchaseorder h1 input.date_entered {width:80px; height:14px;padding:3px;margin-left:20px;}
+#tabs_content_container #purchaseorder table.table-listing {width:100%;margin-bottom:20px;}
+	
+#tabs_content_container #purchaseorder table.table-listing th {width:16%;padding:5px;}
+#tabs_content_container #purchaseorder table.table-listing td {padding:5px;}
+.listing-table .imglink {background-color: #4285f4;
+    border: 1px solid #026695;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 1px;
+    padding: 3px;
+    width: 95%;}
+	
+.listing-table input.imgdisable {
+    background-color: #ccc;
+    border: 1px solid #ddd;
+    color: #eee;
+    cursor: pointer;
+    margin: 5px 1px;
+    padding: 3px;
+    width: 95%;}	
+	
+.listing-table input.btndel {
+    background-color: #4285f4;
+    border: 1px solid #026695;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 1px;
+    padding: 3px;
+    width: 95%;
+}
+
+.listing-table input.btndel:disabled {
+    opacity: 0.6;
+    cursor: default;
+}
+
+#chronoform_Client_Bom_Vic input.btn-process {
+    background-color: #4285f4;
+    border: 1px solid #026695;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 1px;
+    padding: 3px;
+    width: auto;
+}
+#chronoform_Client_Bom_Vic h2 span {
+	visibility:visible!important;
+    border: 1px solid #ddd;
+    color: #4D4D4D;
+    font-size: 14px;
+    margin: 0 0 5px;
+    padding: 5px;}
+
+div.add-row{
+    margin: 10px 0;
+}
+
+div.add-row input, div.add-row select{
+    margin-right:10px; 
+    padding: 5px;
+    }
+

@@ -1,0 +1,354 @@
+@charset "utf-8";
+/*** New Client Folder Stylesheet ***/
+#tabs_wrapper p{margin:2px 10px;line-height:1.4em;}
+
+#client .site-address {padding:6px 0px;}
+#client .site-address p:first-of-type {padding-top:30px;}
+#client .site-address  h1{font-size:14px; border-top:1px solid #ddd; position:absolute;margin:0px 0px 0px 5px;width:25%; background-color:#EEEEEE;color:#4D4D4D;}
+#notes table, #notes table td, #notes table tr {border:none!important;} 
+#tabs_wrapper #notes #tbl-notes, #tabs_wrapper #notes #tbl-content {width:800px;}
+#tabs_wrapper #notes #tbl-notes td textarea {width:785px;height:100px;}
+#tabs_wrapper.notes-tab #notes {min-height:280px;}
+#tabs_wrapper.notes-tab #notes  #tbl-content  h1 {font-size:14px;padding-left:1px;margin-top:10px;border-bottom:2px solid #4D4D4D;margin:8px;color:#4D4D4D;}
+#tabs_wrapper.notes-tab #notes  #tbl-content  h1, #tabs_wrapper.notes-tab #notes  #tbl-content  p{text-align:left;}
+#tabs_wrapper.notes-tab #notes  #tbl-content  p {padding-bottom:10px;word-wrap:break-word;width:780px;white-space:pre-line;}
+#tbl-content tr, #tbl-content td {border:none;}
+#tbl-content .layer-date {width:166px; text-align:left;}
+#tbl-content .layer-whom {width:200px; text-align:left;}
+#frameset {display:inline-block;}
+
+#special table, #special table td, #special table tr {border:none!important;} 
+#tabs_wrapper #special #tbl-special, #tabs_wrapper #special #tbl-content {width:800px;}
+#tabs_wrapper #special #tbl-special td textarea {width:785px;height:100px;}
+#tabs_wrapper.notes-tab #special {min-height:280px;}
+#tabs_wrapper.notes-tab #special  #tbl-content  h1 {font-size:14px;padding-left:1px;margin-top:10px;border-bottom:2px solid #4D4D4D;margin:8px;color:#4D4D4D;}
+#tabs_wrapper.notes-tab #special  #tbl-content  h1, #tabs_wrapper.notes-tab #special  #tbl-content  p{text-align:left;}
+#tabs_wrapper.notes-tab #special  #tbl-content  p {padding-bottom:10px;word-wrap:break-word;width:780px;white-space:pre-line;}
+
+#special .layer-date, #special .layer-whom {
+    width: auto;
+    display: inline-block;
+    padding-top: 5px;
+}
+#tabs_wrapper.notes-tab #special {width:825px;}
+
+/*** Quote Styles ****/
+#output {margin-top:20px;}
+#projectcomm, #projectcost {width:22%;float:left;padding-right:25px;display:none;}
+#projectcomm input, #projectcost input{padding:5px;display:inline-block;}
+#projectcomm label, #projectcost label{float: left;
+display:inline-block;
+    position: relative;
+    width: 150px;}
+#project span.quoteinfo {display:inline-block;padding-right:10px;}
+#project span.quoteinfo input {border:1px solid #97989a;height:17px;padding:2px 2px 4px 4px;margin-top:4px;  width: 110px;}
+#project span.quoteinfo select {border:1px solid #97989a;height:26px;width:auto;min-width:110px;margin:2px 0px;}
+#project span.quoteinfo label{display:block;font-weight:bold;}
+#project span.quote-length input{width: 75px;}
+#downbtn {margin-top:10px;float:left;width:100%}
+#project .save-btn, #project #cancel, #downbtn .save-btn {background-color: #4285f4;
+    border: 1px solid #026695;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    padding: 3px;
+    width: 100px;}
+
+.listing-table .desclist,
+.listing-table .webbing-list,
+.listing-table .colour,
+.listing-table .paint-list {width:95%;}
+
+.listing-table input[type="button"] {
+    background-color: #4285f4;
+    border: 1px solid #026695;
+    color: #fff;
+    cursor: pointer;
+    margin:5px 1px;
+    padding: 3px;
+    width:95%;
+}
+
+.listing-table input[type="text"] {
+    background-color: #3C3C3C;
+    border: 1px solid #026695;
+    color: #fff;
+    margin:5px 1px;
+    padding: 3px;
+    width:95%;
+}
+
+.listing-table tr th:first-child {width:20%;}
+.listing-table tr th:nth-child(2) {width:10%;}
+.listing-table tr th:nth-child(3) {width:12%;}
+.listing-table tr th:nth-child(4) {width:13%;}
+.listing-table tr th:nth-child(5) {width:10%;}
+.listing-table tr th:nth-child(6) {width:7%;}
+.listing-table tr th:nth-child(7) {width:8%;}
+/*.listing-table tr th:nth-child(8) {width:20%;}*/
+
+/*** Double Bay ***/
+#doubletable { vertical-align:top; position:relative;}
+#doubletable table#doublemeasurement, #doubletable table tr, #doubletable table td {border:none!important;}
+#doubletable span {
+    display: inline-block;
+    padding-right: 10px;}
+#doubletable label {font-weight:bold;display:block;}
+#doubletable input{
+    border: 1px solid #97989a;
+    height: 17px;
+    margin-top: 4px;
+    padding: 2px 2px 4px 4px;
+    width: 100px;
+    }
+
+
+/*** Follow Up Styles ***/
+#followup .table-ff th {padding:6px 10px;}
+#followup .table-ff th span.subhead {font-weight:normal}
+#followup .table-ff td span.ffinfo {padding:8px 3px;}
+#followup .table-ff td input {
+	border: 1px solid #97989a;
+    height: 16px;
+   /* margin-top: -6px;*/
+    padding: 2px 2px 4px 4px;}
+	
+#innerbox .table-ff {width:100%;}
+#innerbox .table-ff td {width:50%; padding:5px; vertical-align:top;}
+#innerbox .ffinfo, #tracker .ffinfo {display:block;margin:6px 2px;padding:2px 10px;}
+#innerbox .ffinfo label {width:120px;float:left;}
+#innerbox .table-ff input[type=submit], input[type=button].submit-look{
+    display:block;background-color: #4285f4;
+    border: 1px solid #026695;
+	height: 29px!important;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 5px;
+    padding: 5px;
+    width: 98%;}
+
+ 
+
+#tracker {min-height:263px; overflow:auto;}
+
+#tracker h1 {background-color: #EEEEEE;
+    border-top: 1px solid #ddd;
+    color: #4D4D4D;
+    font-size: 14px;
+    margin: 8px;
+    padding: 5px;
+    }
+#quote input[type="button"] {
+    background-image: linear-gradient(to bottom, #337ab7 0px, #265a88 100%);
+    background-repeat: repeat-x;
+    border: 1px solid #245580;
+    border-radius: 2px; 
+    color: #fff;
+    cursor: pointer;
+    margin: 5px 0;
+    padding: 2px;
+    width: 120px;
+}
+/********************* View Quote **************************/
+
+body[class^="view-contractquote"] #projectcomm, body[class^="view-contractquote"] #projectcost, body[class^='view-quote'] #projectcomm, body[class^='view-quote'] #projectcost
+{display:inline-block;font-family: arial,helvetica,sans-serif;}
+
+.no-top-border tr td:first-child {width:20%;min-width:160px;}
+.no-top-border tr td:nth-child(2) {width: 10%; min-width:56px;}
+.no-top-border tr td:nth-child(3) {width:12%;min-width:147px;}
+.no-top-border tr td:nth-child(4) {width:13%;min-width:37px;}
+.no-top-border tr td:nth-child(5) {width:10%;min-width:29px;}
+.no-top-border tr td:nth-child(6) {width:7%;min-width:26px;}
+.no-top-border tr td:nth-child(7) {width:8%;min-width:42px;}
+.no-top-border tr td:nth-child(8) {width:20%;min-width:50px;}
+.subheading {font-size:14px; color:#4D4D4D; background-color:#EEEEEE; font-weight:bold;}
+
+.ui-widget{
+    font-size: 1em;
+}
+
+#tblSalesTarget th{
+    padding: 2px 3px;
+    vertical-align: bottom;
+    border-bottom: 1px solid #444;
+    text-align: center;
+
+}
+
+.sales-table th{
+    padding: 2px 3px;
+    vertical-align: bottom;
+    border-bottom: 1px solid #444;
+    text-align: center;
+
+}
+ 
+
+#main ul.list-table{
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+#main ul.list-table li{
+     
+    list-style-type: none;
+    
+}
+
+#main ul.kpi-table li{ 
+    /*cursor: pointer;*/
+}
+
+#main ul.list-table li.li-header{
+   
+    list-style-position:inside;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+   
+}
+
+
+
+#main ul.list-table li.li-header span{
+    text-align: left;
+    }
+
+#main ul.list-table table.update-table th{
+    text-decoration: underline;
+    text-align: center;
+}  
+
+#main ul.list-table table.update-table td{
+    
+    text-align: center;
+}    
+
+#main ul.list-table li.li-header{
+
+}
+
+#main ul.list-table li span{
+    width: 12%;
+      padding: 5px;
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+}
+
+#main ul.list-table li.li-row{
+    
+    font-weight: bold;
+   
+}
+
+#main .sales-table{
+
+}
+
+#main .sales-table tr td{
+    text-align: center;
+}
+
+
+#main ul.list-table li span.col-c1{
+    width: 10%;
+ 
+}
+
+#main ul.list-table li span.col-c2{
+    width: 17%;
+ 
+}
+
+#main ul.list-table li span.col-c3{
+    width: 40%;
+ 
+}
+
+#main ul.list-table li span.col-header{
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+#main ul.to-do-list li{
+    cursor: default;
+}    
+
+
+#main .list-table .col-date{
+    width: 10%;
+}
+
+#main .list-table .col-client-id{
+    width: 7%;
+    margin:0 8px 0 8px;
+}
+
+#main .list-table .col-name{
+    width: 15%;
+}
+
+#main .list-table .col-note{
+    width: 38%;
+}
+  
+#main .list-table .followup-date{
+    width: 12%;
+}
+
+#main .list-table .col-status{
+    width: 14%;
+}
+
+#main .list-table .col-sm{
+    width: 7%;
+}
+
+#main .datepicker{
+    width: 100%;
+}
+
+#main .highligh-red{
+    /*background-color:#fccece;*/
+    background-color:#e77b7be6;
+    border-bottom: 2px solid white; 
+}
+
+#main .listing-table .field-warning{
+    background-color:#e6ccb3; 
+    color:black;
+}
+
+
+#project.duplicating-fields input[type="text"]{
+    border-color: #e6b800;
+}
+
+input.invisible{
+    visibility: hidden;
+}
+/*
+input.visible{
+    visibility: visible;
+}*/
+
+a.plain{
+    text-decoration: none;
+    color:inherit;
+    cursor: pointer;
+}
+
+.disabled-fields {
+    pointer-events: none;
+    color: #444;
+    background: #DDD;
+    border: 1px solid #CCC;
+} 
+
+
+.fc-time{
+   display : none;
+}
